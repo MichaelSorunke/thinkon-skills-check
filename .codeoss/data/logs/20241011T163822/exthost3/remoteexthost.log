@@ -61,3 +61,7 @@
 2024-10-11 18:07:07.994 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2948
 2024-10-11 18:07:12.512 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2948
 2024-10-11 18:07:14.719 [error] Error: ENOENT: no such file or directory, lstat '/home/daposorunke/helloworld/pom.xml.git'
+2024-10-11 18:07:20.369 [error] Error: ENOENT: no such file or directory, lstat '/home/daposorunke/helloworld/pom.xml.git'
+2024-10-11 18:07:28.645 [error] Error: ENOENT: no such file or directory, lstat '/home/daposorunke/helloworld/pom.xml.git'
+2024-10-11 18:07:56.652 [error] Error: ENOENT: no such file or directory, lstat '/home/daposorunke/helloworld/pom.xml.git'
+2024-10-11 18:08:00.243 [error] Error: ENOENT: no such file or directory, lstat '/home/daposorunke/helloworld/pom.xml.git'

@@ -251,3 +251,793 @@ fatal: no name was given and auto-detection is disabled
 2024-10-11 18:07:13.722 [info] > git ls-files --stage -- /home/daposorunke/helloworld/pom.xml [5ms]
 2024-10-11 18:07:13.760 [info] > git cat-file -s 90ccd0912a49388b4570c5c668f5527050956926 [1ms]
 2024-10-11 18:07:13.841 [info] > git show --textconv :helloworld/pom.xml [4ms]
+2024-10-11 18:07:17.863 [info] > git add -A -- . [47ms]
+2024-10-11 18:07:17.974 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master [6ms]
+2024-10-11 18:07:18.048 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master [7ms]
+2024-10-11 18:07:18.098 [info] > git config --local branch.master.vscode-merge-base [6ms]
+2024-10-11 18:07:18.099 [warning] git config failed: Failed to execute git
+2024-10-11 18:07:18.141 [info] > git reflog refs/heads/master --grep-reflog=branch: Created from *. [3ms]
+2024-10-11 18:07:18.185 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [3ms]
+2024-10-11 18:07:18.185 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-10-11 18:07:18.185 [info] GitHistoryProvider:resolveHistoryItemGroupBase - Failed to resolve history item group base for 'refs/heads/master'
+2024-10-11 18:07:18.185 [info] GitHistoryProvider:resolveHistoryItemGroupCommonAncestor - Failed to resolve history item group base for 'refs/heads/master'
+2024-10-11 18:07:18.281 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master [5ms]
+2024-10-11 18:07:18.323 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master [2ms]
+2024-10-11 18:07:18.366 [info] > git config --local branch.master.vscode-merge-base [2ms]
+2024-10-11 18:07:18.366 [warning] git config failed: Failed to execute git
+2024-10-11 18:07:18.421 [info] > git reflog refs/heads/master --grep-reflog=branch: Created from *. [14ms]
+2024-10-11 18:07:18.465 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [3ms]
+2024-10-11 18:07:18.465 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-10-11 18:07:18.466 [info] GitHistoryProvider:resolveHistoryItemGroupBase - Failed to resolve history item group base for 'refs/heads/master'
+2024-10-11 18:07:18.466 [info] GitHistoryProvider:resolveHistoryItemGroupCommonAncestor - Failed to resolve history item group base for 'refs/heads/master'
+2024-10-11 18:07:18.758 [info] > git show --textconv :.git/COMMIT_EDITMSG [49ms]
+2024-10-11 18:07:18.759 [info] > git ls-files --stage -- /home/daposorunke/.git/COMMIT_EDITMSG [7ms]
+2024-10-11 18:07:18.960 [info] > git check-ignore -v -z --stdin [4ms]
+2024-10-11 18:07:19.370 [info] > git ls-files --stage -- /home/daposorunke/.git/COMMIT_EDITMSG [4ms]
+2024-10-11 18:07:19.468 [info] > git show --textconv :.git/COMMIT_EDITMSG [4ms]
+2024-10-11 18:07:26.943 [info] > git -c user.useConfigOnly=true commit --quiet [9040ms]
+2024-10-11 18:07:27.028 [info] No remotes found in the git config file.
+2024-10-11 18:07:27.032 [info] > git config --get commit.template [46ms]
+2024-10-11 18:07:27.033 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2024-10-11 18:07:27.114 [info] > git status -z -uall [39ms]
+2024-10-11 18:07:27.182 [info] No remotes found in the git config file.
+2024-10-11 18:07:27.275 [info] > git show --textconv :helloworld/pom.xml [32ms]
+2024-10-11 18:07:27.276 [info] > git config --get commit.template [125ms]
+2024-10-11 18:07:27.282 [info] > git ls-files --stage -- /home/daposorunke/helloworld/pom.xml [8ms]
+2024-10-11 18:07:27.311 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master [98ms]
+2024-10-11 18:07:27.342 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [159ms]
+2024-10-11 18:07:27.374 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master [33ms]
+2024-10-11 18:07:27.404 [info] > git cat-file -s 90ccd0912a49388b4570c5c668f5527050956926 [95ms]
+2024-10-11 18:07:27.407 [info] > git config --local branch.master.vscode-merge-base [3ms]
+2024-10-11 18:07:27.407 [warning] git config failed: Failed to execute git
+2024-10-11 18:07:27.438 [info] > git config --get commit.template [64ms]
+2024-10-11 18:07:27.481 [info] No remotes found in the git config file.
+2024-10-11 18:07:27.483 [info] > git reflog refs/heads/master --grep-reflog=branch: Created from *. [45ms]
+2024-10-11 18:07:27.513 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [32ms]
+2024-10-11 18:07:27.543 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [33ms]
+2024-10-11 18:07:27.543 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-10-11 18:07:27.543 [info] GitHistoryProvider:resolveHistoryItemGroupBase - Failed to resolve history item group base for 'refs/heads/master'
+2024-10-11 18:07:27.543 [info] GitHistoryProvider:resolveHistoryItemGroupCommonAncestor - Failed to resolve history item group base for 'refs/heads/master'
+2024-10-11 18:07:27.577 [info] > git status -z -uall [36ms]
+2024-10-11 18:07:27.648 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master [4ms]
+2024-10-11 18:07:27.677 [info] > git ls-files --stage -- /home/daposorunke/helloworld/pom.xml [64ms]
+2024-10-11 18:07:27.709 [info] > git cat-file -s 90ccd0912a49388b4570c5c668f5527050956926 [3ms]
+2024-10-11 18:07:27.710 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master [34ms]
+2024-10-11 18:07:27.740 [info] > git config --local branch.master.vscode-merge-base [2ms]
+2024-10-11 18:07:27.740 [warning] git config failed: Failed to execute git
+2024-10-11 18:07:27.771 [info] > git reflog refs/heads/master --grep-reflog=branch: Created from *. [3ms]
+2024-10-11 18:07:27.831 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [31ms]
+2024-10-11 18:07:27.831 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-10-11 18:07:27.831 [info] GitHistoryProvider:resolveHistoryItemGroupBase - Failed to resolve history item group base for 'refs/heads/master'
+2024-10-11 18:07:27.831 [info] GitHistoryProvider:resolveHistoryItemGroupCommonAncestor - Failed to resolve history item group base for 'refs/heads/master'
+2024-10-11 18:07:27.833 [info] > git show --textconv :helloworld/pom.xml [5ms]
+2024-10-11 18:07:27.912 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master [2ms]
+2024-10-11 18:07:27.943 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master [3ms]
+2024-10-11 18:07:27.973 [info] > git config --local branch.master.vscode-merge-base [2ms]
+2024-10-11 18:07:27.974 [warning] git config failed: Failed to execute git
+2024-10-11 18:07:28.004 [info] > git reflog refs/heads/master --grep-reflog=branch: Created from *. [3ms]
+2024-10-11 18:07:28.034 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-10-11 18:07:28.034 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-10-11 18:07:28.034 [info] GitHistoryProvider:resolveHistoryItemGroupBase - Failed to resolve history item group base for 'refs/heads/master'
+2024-10-11 18:07:28.034 [info] GitHistoryProvider:resolveHistoryItemGroupCommonAncestor - Failed to resolve history item group base for 'refs/heads/master'
+2024-10-11 18:07:28.176 [info] > git check-ignore -v -z --stdin [4ms]
+2024-10-11 18:07:32.375 [info] > git config --get commit.template [3ms]
+2024-10-11 18:07:32.404 [info] No remotes found in the git config file.
+2024-10-11 18:07:32.405 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-10-11 18:07:32.471 [info] > git status -z -uall [36ms]
+2024-10-11 18:07:37.555 [info] No remotes found in the git config file.
+2024-10-11 18:07:37.559 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2024-10-11 18:07:37.559 [info] > git config --get commit.template [46ms]
+2024-10-11 18:07:37.638 [info] > git status -z -uall [39ms]
+2024-10-11 18:07:42.683 [info] > git config --get commit.template [3ms]
+2024-10-11 18:07:42.721 [info] No remotes found in the git config file.
+2024-10-11 18:07:42.723 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-10-11 18:07:42.801 [info] > git status -z -uall [40ms]
+2024-10-11 18:07:47.864 [info] No remotes found in the git config file.
+2024-10-11 18:07:47.866 [info] > git config --get commit.template [30ms]
+2024-10-11 18:07:47.867 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-10-11 18:07:47.934 [info] > git status -z -uall [39ms]
+2024-10-11 18:07:52.969 [info] > git config --get commit.template [3ms]
+2024-10-11 18:07:52.969 [info] No remotes found in the git config file.
+2024-10-11 18:07:53.002 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-10-11 18:07:53.065 [info] > git status -z -uall [35ms]
+2024-10-11 18:07:54.082 [info] > git remote add thinkon-skills https://github.com/danswer-ai/danswer.git [5ms]
+2024-10-11 18:07:54.115 [info] > git config --get commit.template [4ms]
+2024-10-11 18:07:54.149 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-10-11 18:07:54.218 [info] > git status -z -uall [41ms]
+2024-10-11 18:07:54.353 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master [11ms]
+2024-10-11 18:07:54.397 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master [2ms]
+2024-10-11 18:07:54.430 [info] > git config --local branch.master.vscode-merge-base [2ms]
+2024-10-11 18:07:54.430 [warning] git config failed: Failed to execute git
+2024-10-11 18:07:54.463 [info] > git reflog refs/heads/master --grep-reflog=branch: Created from *. [5ms]
+2024-10-11 18:07:54.494 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [3ms]
+2024-10-11 18:07:54.494 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-10-11 18:07:54.494 [info] GitHistoryProvider:resolveHistoryItemGroupBase - Failed to resolve history item group base for 'refs/heads/master'
+2024-10-11 18:07:54.494 [info] GitHistoryProvider:resolveHistoryItemGroupCommonAncestor - Failed to resolve history item group base for 'refs/heads/master'
+2024-10-11 18:07:55.659 [info] > git ls-files --stage -- /home/daposorunke/helloworld/pom.xml [8ms]
+2024-10-11 18:07:55.729 [info] > git cat-file -s 90ccd0912a49388b4570c5c668f5527050956926 [6ms]
+2024-10-11 18:07:55.860 [info] > git show --textconv :helloworld/pom.xml [10ms]
+2024-10-11 18:07:57.789 [info] > git fetch thinkon-skills [3538ms]
+2024-10-11 18:07:57.789 [info] From https://github.com/danswer-ai/danswer
+ * [new branch]        549_and_search          -> thinkon-skills/549_and_search
+ * [new branch]        CORS_ISSUES             -> thinkon-skills/CORS_ISSUES
+ * [new branch]        DAN-553                 -> thinkon-skills/DAN-553
+ * [new branch]        Exchange-Connector-squashed -> thinkon-skills/Exchange-Connector-squashed
+ * [new branch]        ID_body                 -> thinkon-skills/ID_body
+ * [new branch]        abdu/telemetry          -> thinkon-skills/abdu/telemetry
+ * [new branch]        access_token            -> thinkon-skills/access_token
+ * [new branch]        add-back-test           -> thinkon-skills/add-back-test
+ * [new branch]        add-slack-user-to-csv   -> thinkon-skills/add-slack-user-to-csv
+ * [new branch]        add-ui-based-llm-selection -> thinkon-skills/add-ui-based-llm-selection
+ * [new branch]        add-user-on-slack-bot-invoke -> thinkon-skills/add-user-on-slack-bot-invoke
+ * [new branch]        additional_logging      -> thinkon-skills/additional_logging
+ * [new branch]        agent_search_improvements -> thinkon-skills/agent_search_improvements
+ * [new branch]        air-gapped-testing      -> thinkon-skills/air-gapped-testing
+ * [new branch]        alembic_update          -> thinkon-skills/alembic_update
+ * [new branch]        allow-pool-size-config  -> thinkon-skills/allow-pool-size-config
+ * [new branch]        answerability           -> thinkon-skills/answerability
+ * [new branch]        anthropic_image         -> thinkon-skills/anthropic_image
+ * [new branch]        apply-black             -> thinkon-skills/apply-black
+ * [new branch]        archive/feature/assistants -> thinkon-skills/archive/feature/assistants
+ * [new branch]        archive/v0.5            -> thinkon-skills/archive/v0.5
+ * [new branch]        artifacts               -> thinkon-skills/artifacts
+ * [new branch]        asana_connector         -> thinkon-skills/asana_connector
+ * [new branch]        assistant_ordering      -> thinkon-skills/assistant_ordering
+ * [new branch]        assistant_query_params  -> thinkon-skills/assistant_query_params
+ * [new branch]        assistant_sharing       -> thinkon-skills/assistant_sharing
+ * [new branch]        assistant_visibility    -> thinkon-skills/assistant_visibility
+ * [new branch]        assistants-recent-docs  -> thinkon-skills/assistants-recent-docs
+ * [new branch]        assistants_panel_rework -> thinkon-skills/assistants_panel_rework
+ * [new branch]        autogenerate-cleanup-functions -> thinkon-skills/autogenerate-cleanup-functions
+ * [new branch]        backstreet              -> thinkon-skills/backstreet
+ * [new branch]        banner_width            -> thinkon-skills/banner_width
+ * [new branch]        basic_virtualization    -> thinkon-skills/basic_virtualization
+ * [new branch]        batch-embeddings        -> thinkon-skills/batch-embeddings
+ * [new branch]        benchmarking            -> thinkon-skills/benchmarking
+ * [new branch]        billing_multi           -> thinkon-skills/billing_multi
+ * [new branch]        bool                    -> thinkon-skills/bool
+ * [new branch]        bugfix/humanformatting  -> thinkon-skills/bugfix/humanformatting
+ * [new branch]        bugfix/persona_access_2 -> thinkon-skills/bugfix/persona_access_2
+ * [new branch]        bugfix/redis-password   -> thinkon-skills/bugfix/redis-password
+ * [new branch]        bugfix/reindex_zero     -> thinkon-skills/bugfix/reindex_zero
+ * [new branch]        bugfix/supervisord_logs -> thinkon-skills/bugfix/supervisord_logs
+ * [new branch]        bugfix/upload-artifact  -> thinkon-skills/bugfix/upload-artifact
+ * [new branch]        bugfix/vespa-delete-performance -> thinkon-skills/bugfix/vespa-delete-performance
+ * [new branch]        bugfix/vespa-performance -> thinkon-skills/bugfix/vespa-performance
+ * [new branch]        bugfix/vespa-update-performance -> thinkon-skills/bugfix/vespa-update-performance
+ * [new branch]        bugfix/wait_for_prune   -> thinkon-skills/bugfix/wait_for_prune
+ * [new branch]        change-hide-non-answers -> thinkon-skills/change-hide-non-answers
+ * [new branch]        chat_banner             -> thinkon-skills/chat_banner
+ * [new branch]        check-llm-chunk-indices -> thinkon-skills/check-llm-chunk-indices
+ * [new branch]        clarit_image_errors     -> thinkon-skills/clarit_image_errors
+ * [new branch]        claude_image_models     -> thinkon-skills/claude_image_models
+ * [new branch]        cleaner_search          -> thinkon-skills/cleaner_search
+ * [new branch]        clearer_assistant_flow  -> thinkon-skills/clearer_assistant_flow
+ * [new branch]        clearer_error_messages  -> thinkon-skills/clearer_error_messages
+ * [new branch]        cloud_configs           -> thinkon-skills/cloud_configs
+ * [new branch]        code_formatting_empty   -> thinkon-skills/code_formatting_empty
+ * [new branch]        code_interpreter/v1     -> thinkon-skills/code_interpreter/v1
+ * [new branch]        code_text               -> thinkon-skills/code_text
+ * [new branch]        color_organization      -> thinkon-skills/color_organization
+ * [new branch]        color_rework            -> thinkon-skills/color_rework
+ * [new branch]        colors                  -> thinkon-skills/colors
+ * [new branch]        components_and_assistants -> thinkon-skills/components_and_assistants
+ * [new branch]        concurrency_chats       -> thinkon-skills/concurrency_chats
+ * [new branch]        concurrent_toolcall     -> thinkon-skills/concurrent_toolcall
+ * [new branch]        confluence_child        -> thinkon-skills/confluence_child
+ * [new branch]        confluence_robust       -> thinkon-skills/confluence_robust
+ * [new branch]        consent_screen          -> thinkon-skills/consent_screen
+ * [new branch]        continue                -> thinkon-skills/continue
+ * [new branch]        cookies_n_more          -> thinkon-skills/cookies_n_more
+ * [new branch]        copying_multiple_code_blocks -> thinkon-skills/copying_multiple_code_blocks
+ * [new branch]        css_identifiers         -> thinkon-skills/css_identifiers
+ * [new branch]        custom_settings_dropdown -> thinkon-skills/custom_settings_dropdown
+ * [new branch]        customize_timeouts      -> thinkon-skills/customize_timeouts
+ * [new branch]        db-search-settings      -> thinkon-skills/db-search-settings
+ * [new branch]        db_search               -> thinkon-skills/db_search
+ * [new branch]        debug-test              -> thinkon-skills/debug-test
+ * [new branch]        default_to_none         -> thinkon-skills/default_to_none
+ * [new branch]        delete_all_chats        -> thinkon-skills/delete_all_chats
+ * [new branch]        dependabot/npm_and_yarn/web/next-14.2.10 -> thinkon-skills/dependabot/npm_and_yarn/web/next-14.2.10
+ * [new branch]        dependabot/pip/backend/requirements/langchain-0.2.10 -> thinkon-skills/dependabot/pip/backend/requirements/langchain-0.2.10
+ * [new branch]        dependency_injection    -> thinkon-skills/dependency_injection
+ * [new branch]        disable-llm-search-flow -> thinkon-skills/disable-llm-search-flow
+ * [new branch]        disabling_logic         -> thinkon-skills/disabling_logic
+ * [new branch]        discord_connector       -> thinkon-skills/discord_connector
+ * [new branch]        doc_set                 -> thinkon-skills/doc_set
+ * [new branch]        draggable_assistants    -> thinkon-skills/draggable_assistants
+ * [new branch]        drive_clarity           -> thinkon-skills/drive_clarity
+ * [new branch]        drive_fix               -> thinkon-skills/drive_fix
+ * [new branch]        dynamic_output_limit    -> thinkon-skills/dynamic_output_limit
+ * [new branch]        edit_persona_names      -> thinkon-skills/edit_persona_names
+ * [new branch]        embedding_azure         -> thinkon-skills/embedding_azure
+ * [new branch]        embeddings              -> thinkon-skills/embeddings
+ * [new branch]        enable-cuda-for-docker  -> thinkon-skills/enable-cuda-for-docker
+ * [new branch]        env_embedding_size      -> thinkon-skills/env_embedding_size
+ * [new branch]        error_handling_stream   -> thinkon-skills/error_handling_stream
+ * [new branch]        eval/always-title       -> thinkon-skills/eval/always-title
+ * [new branch]        eval/cohere-embed-english-v3.0 -> thinkon-skills/eval/cohere-embed-english-v3.0
+ * [new branch]        eval/combination-1      -> thinkon-skills/eval/combination-1
+ * [new branch]        eval/embedding-with-nomic-v1-5 -> thinkon-skills/eval/embedding-with-nomic-v1-5
+ * [new branch]        eval/no-n-gram          -> thinkon-skills/eval/no-n-gram
+ * [new branch]        eval/no-n-grams         -> thinkon-skills/eval/no-n-grams
+ * [new branch]        eval/nomic              -> thinkon-skills/eval/nomic
+ * [new branch]        eval/norm-max           -> thinkon-skills/eval/norm-max
+ * [new branch]        eval/split-normalization -> thinkon-skills/eval/split-normalization
+ * [new branch]        exchange_connector_clean -> thinkon-skills/exchange_connector_clean
+ * [new branch]        expiremental_cursordiff -> thinkon-skills/expiremental_cursordiff
+ * [new branch]        extend_time_range       -> thinkon-skills/extend_time_range
+ * [new branch]        extremely_robustified_ias -> thinkon-skills/extremely_robustified_ias
+ * [new branch]        failed_reindex          -> thinkon-skills/failed_reindex
+ * [new branch]        feature/agentic_search  -> thinkon-skills/feature/agentic_search
+ * [new branch]        feature/assistants      -> thinkon-skills/feature/assistants
+ * [new branch]        feature/assistants_regenerate -> thinkon-skills/feature/assistants_regenerate
+ * [new branch]        feature/background_indexing -> thinkon-skills/feature/background_indexing
+ * [new branch]        feature/background_prune -> thinkon-skills/feature/background_prune
+ * [new branch]        feature/background_prune_2 -> thinkon-skills/feature/background_prune_2
+ * [new branch]        feature/forced_deletion -> thinkon-skills/feature/forced_deletion
+ * [new branch]        feature/multi-slack     -> thinkon-skills/feature/multi-slack
+ * [new branch]        feature/print_queues    -> thinkon-skills/feature/print_queues
+ * [new branch]        feature/redis_pools     -> thinkon-skills/feature/redis_pools
+ * [new branch]        feature/search_chat     -> thinkon-skills/feature/search_chat
+ * [new branch]        feature/shared-httpx-2  -> thinkon-skills/feature/shared-httpx-2
+ * [new branch]        feature/shared_httpx    -> thinkon-skills/feature/shared_httpx
+ * [new branch]        feature/stop            -> thinkon-skills/feature/stop
+ * [new branch]        final_graphing          -> thinkon-skills/final_graphing
+ * [new branch]        final_sequential_toolcalls -> thinkon-skills/final_sequential_toolcalls
+ * [new branch]        fix-answer-with-specified-doc-ids -> thinkon-skills/fix-answer-with-specified-doc-ids
+ * [new branch]        fix-assistant-default   -> thinkon-skills/fix-assistant-default
+ * [new branch]        fix-assistant-swap      -> thinkon-skills/fix-assistant-swap
+ * [new branch]        fix-deletion            -> thinkon-skills/fix-deletion
+ * [new branch]        fix-font                -> thinkon-skills/fix-font
+ * [new branch]        fix-initial-cc-page-navigation -> thinkon-skills/fix-initial-cc-page-navigation
+ * [new branch]        fix-server-port         -> thinkon-skills/fix-server-port
+ * [new branch]        fix-slack-groups        -> thinkon-skills/fix-slack-groups
+ * [new branch]        fix-slack-login         -> thinkon-skills/fix-slack-login
+ * [new branch]        fix-slack-respones      -> thinkon-skills/fix-slack-respones
+ * [new branch]        fix-some-chat-bugs      -> thinkon-skills/fix-some-chat-bugs
+ * [new branch]        fix-tool-call-errors    -> thinkon-skills/fix-tool-call-errors
+ * [new branch]        fix-upgrade-for-existing -> thinkon-skills/fix-upgrade-for-existing
+ * [new branch]        fix_azure               -> thinkon-skills/fix_azure
+ * [new branch]        formatting_nits         -> thinkon-skills/formatting_nits
+ * [new branch]        formik                  -> thinkon-skills/formik
+ * [new branch]        freshdesk               -> thinkon-skills/freshdesk
+ * [new branch]        functional_graphs       -> thinkon-skills/functional_graphs
+ * [new branch]        gdrive-connector        -> thinkon-skills/gdrive-connector
+ * [new branch]        github-action-improvements -> thinkon-skills/github-action-improvements
+ * [new branch]        global-curator-fix      -> thinkon-skills/global-curator-fix
+ * [new branch]        google-drive-perm-sync-fix -> thinkon-skills/google-drive-perm-sync-fix
+ * [new branch]        handle-documents-that-are-not-accessible -> thinkon-skills/handle-documents-that-are-not-accessible
+ * [new branch]        header_updates          -> thinkon-skills/header_updates
+ * [new branch]        hj-test-integration     -> thinkon-skills/hj-test-integration
+ * [new branch]        hotfix-alembic-server-default -> thinkon-skills/hotfix-alembic-server-default
+ * [new branch]        hotfix/v0.5-prompt-2    -> thinkon-skills/hotfix/v0.5-prompt-2
+ * [new branch]        hotfix/v0.6-supervisord-logs -> thinkon-skills/hotfix/v0.6-supervisord-logs
+ * [new branch]        hotfix/v0.7-supervisor-logs -> thinkon-skills/hotfix/v0.7-supervisor-logs
+ * [new branch]        hotfix/v0.7-tool-calling-change -> thinkon-skills/hotfix/v0.7-tool-calling-change
+ * [new branch]        hotfix/v0.8-supervisord-logs -> thinkon-skills/hotfix/v0.8-supervisord-logs
+ * [new branch]        html_parsing            -> thinkon-skills/html_parsing
+ * [new branch]        image_guardrails        -> thinkon-skills/image_guardrails
+ * [new branch]        implement-source-testing-framework -> thinkon-skills/implement-source-testing-framework
+ * [new branch]        improve-filter          -> thinkon-skills/improve-filter
+ * [new branch]        improve-persona-logging -> thinkon-skills/improve-persona-logging
+ * [new branch]        improve-prompt-table    -> thinkon-skills/improve-prompt-table
+ * [new branch]        improved_agentic_search -> thinkon-skills/improved_agentic_search
+ * [new branch]        improved_search         -> thinkon-skills/improved_search
+ * [new branch]        initial_exp             -> thinkon-skills/initial_exp
+ * [new branch]        inline_code             -> thinkon-skills/inline_code
+ * [new branch]        input_background        -> thinkon-skills/input_background
+ * [new branch]        integration-tests       -> thinkon-skills/integration-tests
+ * [new branch]        intuitive_ui            -> thinkon-skills/intuitive_ui
+ * [new branch]        it-polish               -> thinkon-skills/it-polish
+ * [new branch]        jira-old-server-version -> thinkon-skills/jira-old-server-version
+ * [new branch]        jira-permission-sync    -> thinkon-skills/jira-permission-sync
+ * [new branch]        jos/devx                -> thinkon-skills/jos/devx
+ * [new branch]        jos/launch-json         -> thinkon-skills/jos/launch-json
+ * [new branch]        jos/ux2                 -> thinkon-skills/jos/ux2
+ * [new branch]        landing_modals          -> thinkon-skills/landing_modals
+ * [new branch]        latency_fix             -> thinkon-skills/latency_fix
+ * [new branch]        lazy-loading            -> thinkon-skills/lazy-loading
+ * [new branch]        linting                 -> thinkon-skills/linting
+ * [new branch]        linting_fix             -> thinkon-skills/linting_fix
+ * [new branch]        litellm_password        -> thinkon-skills/litellm_password
+ * [new branch]        llm_provider_clarity    -> thinkon-skills/llm_provider_clarity
+ * [new branch]        log                     -> thinkon-skills/log
+ * [new branch]        logging                 -> thinkon-skills/logging
+ * [new branch]        logo                    -> thinkon-skills/logo
+ * [new branch]        loosen-web-connector-default -> thinkon-skills/loosen-web-connector-default
+ * [new branch]        main                    -> thinkon-skills/main
+ * [new branch]        manually-delete-connector -> thinkon-skills/manually-delete-connector
+ * [new branch]        max-width               -> thinkon-skills/max-width
+ * [new branch]        merged_regeneration     -> thinkon-skills/merged_regeneration
+ * [new branch]        migration_fix/indexing_2 -> thinkon-skills/migration_fix/indexing_2
+ * [new branch]        mini/formatting         -> thinkon-skills/mini/formatting
+ * [new branch]        minor/assist_ui         -> thinkon-skills/minor/assist_ui
+ * [new branch]        minor/bit               -> thinkon-skills/minor/bit
+ * [new branch]        minor/fix_default_refresh_timing -> thinkon-skills/minor/fix_default_refresh_timing
+ * [new branch]        minor/minimal-ui        -> thinkon-skills/minor/minimal-ui
+ * [new branch]        minor/remove_visit_api  -> thinkon-skills/minor/remove_visit_api
+ * [new branch]        minor_regeneration      -> thinkon-skills/minor_regeneration
+ * [new branch]        minor_ux_update         -> thinkon-skills/minor_ux_update
+ * [new branch]        mobile                  -> thinkon-skills/mobile
+ * [new branch]        mobile-resizing         -> thinkon-skills/mobile-resizing
+ * [new branch]        mocked_refresh          -> thinkon-skills/mocked_refresh
+ * [new branch]        mocked_refreshing       -> thinkon-skills/mocked_refreshing
+ * [new branch]        modals                  -> thinkon-skills/modals
+ * [new branch]        more_robust_assistant_ordering -> thinkon-skills/more_robust_assistant_ordering
+ * [new branch]        multi                   -> thinkon-skills/multi
+ * [new branch]        multi_chat              -> thinkon-skills/multi_chat
+ * [new branch]        multi_tenant_alembic    -> thinkon-skills/multi_tenant_alembic
+ * [new branch]        multi_tenant_vespa      -> thinkon-skills/multi_tenant_vespa
+ * [new branch]        netflix_image_issues    -> thinkon-skills/netflix_image_issues
+ * [new branch]        new_admin               -> thinkon-skills/new_admin
+ * [new branch]        next_perm_fix           -> thinkon-skills/next_perm_fix
+ * [new branch]        no-answer-api-fix       -> thinkon-skills/no-answer-api-fix
+ * [new branch]        no-zulip                -> thinkon-skills/no-zulip
+ * [new branch]        nomic-test              -> thinkon-skills/nomic-test
+ * [new branch]        o1                      -> thinkon-skills/o1
+ * [new branch]        obfuscate_api_keys      -> thinkon-skills/obfuscate_api_keys
+ * [new branch]        one_click_gauth         -> thinkon-skills/one_click_gauth
+ * [new branch]        oneline-underscore      -> thinkon-skills/oneline-underscore
+ * [new branch]        parallelize-chunking    -> thinkon-skills/parallelize-chunking
+ * [new branch]        pass_ids_tool_call      -> thinkon-skills/pass_ids_tool_call
+ * [new branch]        polishing-curator       -> thinkon-skills/polishing-curator
+ * [new branch]        portal_testing          -> thinkon-skills/portal_testing
+ * [new branch]        proper_redirect_oidc    -> thinkon-skills/proper_redirect_oidc
+ * [new branch]        pruning-defaults        -> thinkon-skills/pruning-defaults
+ * [new branch]        quote_overflow          -> thinkon-skills/quote_overflow
+ * [new branch]        readme-video            -> thinkon-skills/readme-video
+ * [new branch]        rebase_embeddings       -> thinkon-skills/rebase_embeddings
+ * [new branch]        redirect-admin          -> thinkon-skills/redirect-admin
+ * [new branch]        regenerate_updated      -> thinkon-skills/regenerate_updated
+ * [new branch]        release/v0.6            -> thinkon-skills/release/v0.6
+ * [new branch]        release/v0.7            -> thinkon-skills/release/v0.7
+ * [new branch]        release/v0.8            -> thinkon-skills/release/v0.8
+ * [new branch]        remove-redundant-dedupe -> thinkon-skills/remove-redundant-dedupe
+ * [new branch]        remove-unused-env-variables -> thinkon-skills/remove-unused-env-variables
+ * [new branch]        remove_delay            -> thinkon-skills/remove_delay
+ * [new branch]        remove_next_image       -> thinkon-skills/remove_next_image
+ * [new branch]        remove_unused_quotes    -> thinkon-skills/remove_unused_quotes
+ * [new branch]        rerank_proxy            -> thinkon-skills/rerank_proxy
+ * [new branch]        resize_header           -> thinkon-skills/resize_header
+ * [new branch]        revert-2590-tenant_provisioning_dataplane -> thinkon-skills/revert-2590-tenant_provisioning_dataplane
+ * [new branch]        revert-2593-user_service_provisioning -> thinkon-skills/revert-2593-user_service_provisioning
+ * [new branch]        robustify_deletion      -> thinkon-skills/robustify_deletion
+ * [new branch]        robustify_quotes        -> thinkon-skills/robustify_quotes
+ * [new branch]        search_code_block       -> thinkon-skills/search_code_block
+ * [new branch]        search_settings_click   -> thinkon-skills/search_settings_click
+ * [new branch]        show_reindexing_errors  -> thinkon-skills/show_reindexing_errors
+ * [new branch]        sidebar-buttons         -> thinkon-skills/sidebar-buttons
+ * [new branch]        simple-api-tests        -> thinkon-skills/simple-api-tests
+ * [new branch]        simpler_azure_embedding -> thinkon-skills/simpler_azure_embedding
+ * [new branch]        slack-bot-in-dm-uses-user-info -> thinkon-skills/slack-bot-in-dm-uses-user-info
+ * [new branch]        slack-channel-selector  -> thinkon-skills/slack-channel-selector
+ * [new branch]        slackbot-rate-limiting  -> thinkon-skills/slackbot-rate-limiting
+ * [new branch]        slight_vespa_robustification -> thinkon-skills/slight_vespa_robustification
+ * [new branch]        small-import-fix        -> thinkon-skills/small-import-fix
+ * [new branch]        small-improvement       -> thinkon-skills/small-improvement
+ * [new branch]        small-token-budget-tweaks -> thinkon-skills/small-token-budget-tweaks
+ * [new branch]        specify_persona_api     -> thinkon-skills/specify_persona_api
+ * [new branch]        speed-up-docker-launch  -> thinkon-skills/speed-up-docker-launch
+ * [new branch]        spreading_operation     -> thinkon-skills/spreading_operation
+ * [new branch]        sso_auth                -> thinkon-skills/sso_auth
+ * [new branch]        standard-answer-any-all -> thinkon-skills/standard-answer-any-all
+ * [new branch]        standard-answer-ee-followup -> thinkon-skills/standard-answer-ee-followup
+ * [new branch]        standard-answer-in-assistants -> thinkon-skills/standard-answer-in-assistants
+ * [new branch]        standard-answers-migrate-to-ee -> thinkon-skills/standard-answers-migrate-to-ee
+ * [new branch]        standard-answers-ui-behind-ee -> thinkon-skills/standard-answers-ui-behind-ee
+ * [new branch]        stream-in-sleep         -> thinkon-skills/stream-in-sleep
+ * [new branch]        stress-test-api-server  -> thinkon-skills/stress-test-api-server
+ * [new branch]        support-regex-in-standard-answers -> thinkon-skills/support-regex-in-standard-answers
+ * [new branch]        table-fix               -> thinkon-skills/table-fix
+ * [new branch]        teams-connector         -> thinkon-skills/teams-connector
+ * [new branch]        temp-patch-tool-call    -> thinkon-skills/temp-patch-tool-call
+ * [new branch]        temperature_investigation -> thinkon-skills/temperature_investigation
+ * [new branch]        tenant_context_background -> thinkon-skills/tenant_context_background
+ * [new branch]        tenant_provisioning_dataplane -> thinkon-skills/tenant_provisioning_dataplane
+ * [new branch]        terraform               -> thinkon-skills/terraform
+ * [new branch]        test_search             -> thinkon-skills/test_search
+ * [new branch]        test_stream             -> thinkon-skills/test_stream
+ * [new branch]        testing                 -> thinkon-skills/testing
+ * [new branch]        theming                 -> thinkon-skills/theming
+ * [new branch]        time_assistants         -> thinkon-skills/time_assistants
+ * [new branch]        timeout                 -> thinkon-skills/timeout
+ * [new branch]        tiny_fixes              -> thinkon-skills/tiny_fixes
+ * [new branch]        tool_call_sequential    -> thinkon-skills/tool_call_sequential
+ * [new branch]        toolcalls               -> thinkon-skills/toolcalls
+ * [new branch]        tooling_configs         -> thinkon-skills/tooling_configs
+ * [new branch]        trial/dan-618-clean-up-ambiguities-between-model-definitions-and-database -> thinkon-skills/trial/dan-618-clean-up-ambiguities-between-model-definitions-and-database
+ * [new branch]        ui/assist               -> thinkon-skills/ui/assist
+ * [new branch]        ui/assistants           -> thinkon-skills/ui/assistants
+ * [new branch]        ui/colors               -> thinkon-skills/ui/colors
+ * [new branch]        ui/overhaul-sidebar     -> thinkon-skills/ui/overhaul-sidebar
+ * [new branch]        unstructured-integration -> thinkon-skills/unstructured-integration
+ * [new branch]        up                      -> thinkon-skills/up
+ * [new branch]        update_form             -> thinkon-skills/update_form
+ * [new branch]        update_models           -> thinkon-skills/update_models
+ * [new branch]        user_deletion           -> thinkon-skills/user_deletion
+ * [new branch]        user_doc_sync_errors    -> thinkon-skills/user_doc_sync_errors
+ * [new branch]        user_group_unnecessary  -> thinkon-skills/user_group_unnecessary
+ * [new branch]        user_service_provisioning -> thinkon-skills/user_service_provisioning
+ * [new branch]        validate_ux             -> thinkon-skills/validate_ux
+ * [new branch]        verbose_errors          -> thinkon-skills/verbose_errors
+ * [new branch]        vespa_indexing_multitenant -> thinkon-skills/vespa_indexing_multitenant
+ * [new branch]        vespa_multi             -> thinkon-skills/vespa_multi
+ * [new branch]        virtualization_chat     -> thinkon-skills/virtualization_chat
+ * [new branch]        warn_local_reranking    -> thinkon-skills/warn_local_reranking
+ * [new branch]        web-dockerfile          -> thinkon-skills/web-dockerfile
+ * [new tag]           nightly-latest-20241001 -> nightly-latest-20241001
+ * [new tag]           nightly-latest-20241011 -> nightly-latest-20241011
+ * [new tag]           v0.3.38-no-zulip        -> v0.3.38-no-zulip
+ * [new tag]           v0.3.39-no-zulip        -> v0.3.39-no-zulip
+ * [new tag]           v0.3.68                 -> v0.3.68
+ * [new tag]           v0.5.28                 -> v0.5.28
+ * [new tag]           v0.6.2                  -> v0.6.2
+ * [new tag]           v0.7.0-beta.1           -> v0.7.0-beta.1
+ * [new tag]           v0.7.4                  -> v0.7.4
+ * [new tag]           v0.8.0-beta.2           -> v0.8.0-beta.2
+ * [new tag]           0.4.5                   -> 0.4.5
+ * [new tag]           experimental-1          -> experimental-1
+ * [new tag]           nightly-latest-20240927 -> nightly-latest-20240927
+ * [new tag]           nightly-latest-20240928 -> nightly-latest-20240928
+ * [new tag]           nightly-latest-20240929 -> nightly-latest-20240929
+ * [new tag]           nightly-latest-20240930 -> nightly-latest-20240930
+ * [new tag]           nightly-latest-20241002 -> nightly-latest-20241002
+ * [new tag]           nightly-latest-20241003 -> nightly-latest-20241003
+ * [new tag]           nightly-latest-20241004 -> nightly-latest-20241004
+ * [new tag]           nightly-latest-20241005 -> nightly-latest-20241005
+ * [new tag]           nightly-latest-20241006 -> nightly-latest-20241006
+ * [new tag]           nightly-latest-20241007 -> nightly-latest-20241007
+ * [new tag]           nightly-latest-20241008 -> nightly-latest-20241008
+ * [new tag]           nightly-latest-20241009 -> nightly-latest-20241009
+ * [new tag]           nightly-latest-20241010 -> nightly-latest-20241010
+ * [new tag]           v0.1.0                  -> v0.1.0
+ * [new tag]           v0.1.1                  -> v0.1.1
+ * [new tag]           v0.1.2                  -> v0.1.2
+ * [new tag]           v0.1.3                  -> v0.1.3
+ * [new tag]           v0.1.4                  -> v0.1.4
+ * [new tag]           v0.1.5                  -> v0.1.5
+ * [new tag]           v0.1.6                  -> v0.1.6
+ * [new tag]           v0.1.7                  -> v0.1.7
+ * [new tag]           v0.1.8                  -> v0.1.8
+ * [new tag]           v0.1.9                  -> v0.1.9
+ * [new tag]           v0.2.0                  -> v0.2.0
+ * [new tag]           v0.2.1                  -> v0.2.1
+ * [new tag]           v0.2.10                 -> v0.2.10
+ * [new tag]           v0.2.11                 -> v0.2.11
+ * [new tag]           v0.2.12                 -> v0.2.12
+ * [new tag]           v0.2.13                 -> v0.2.13
+ * [new tag]           v0.2.14                 -> v0.2.14
+ * [new tag]           v0.2.15                 -> v0.2.15
+ * [new tag]           v0.2.16                 -> v0.2.16
+ * [new tag]           v0.2.17                 -> v0.2.17
+ * [new tag]           v0.2.18                 -> v0.2.18
+ * [new tag]           v0.2.19                 -> v0.2.19
+ * [new tag]           v0.2.2                  -> v0.2.2
+ * [new tag]           v0.2.20                 -> v0.2.20
+ * [new tag]           v0.2.21                 -> v0.2.21
+ * [new tag]           v0.2.22                 -> v0.2.22
+ * [new tag]           v0.2.23                 -> v0.2.23
+ * [new tag]           v0.2.24                 -> v0.2.24
+ * [new tag]           v0.2.25                 -> v0.2.25
+ * [new tag]           v0.2.26                 -> v0.2.26
+ * [new tag]           v0.2.27                 -> v0.2.27
+ * [new tag]           v0.2.28                 -> v0.2.28
+ * [new tag]           v0.2.29                 -> v0.2.29
+ * [new tag]           v0.2.3                  -> v0.2.3
+ * [new tag]           v0.2.30                 -> v0.2.30
+ * [new tag]           v0.2.31                 -> v0.2.31
+ * [new tag]           v0.2.32                 -> v0.2.32
+ * [new tag]           v0.2.33                 -> v0.2.33
+ * [new tag]           v0.2.34                 -> v0.2.34
+ * [new tag]           v0.2.35                 -> v0.2.35
+ * [new tag]           v0.2.36                 -> v0.2.36
+ * [new tag]           v0.2.37                 -> v0.2.37
+ * [new tag]           v0.2.38                 -> v0.2.38
+ * [new tag]           v0.2.39                 -> v0.2.39
+ * [new tag]           v0.2.4                  -> v0.2.4
+ * [new tag]           v0.2.40                 -> v0.2.40
+ * [new tag]           v0.2.41                 -> v0.2.41
+ * [new tag]           v0.2.43                 -> v0.2.43
+ * [new tag]           v0.2.44                 -> v0.2.44
+ * [new tag]           v0.2.45                 -> v0.2.45
+ * [new tag]           v0.2.46                 -> v0.2.46
+ * [new tag]           v0.2.47                 -> v0.2.47
+ * [new tag]           v0.2.48                 -> v0.2.48
+ * [new tag]           v0.2.49                 -> v0.2.49
+ * [new tag]           v0.2.5                  -> v0.2.5
+ * [new tag]           v0.2.50                 -> v0.2.50
+ * [new tag]           v0.2.51                 -> v0.2.51
+ * [new tag]           v0.2.52                 -> v0.2.52
+ * [new tag]           v0.2.53                 -> v0.2.53
+ * [new tag]           v0.2.54                 -> v0.2.54
+ * [new tag]           v0.2.55                 -> v0.2.55
+ * [new tag]           v0.2.56                 -> v0.2.56
+ * [new tag]           v0.2.57                 -> v0.2.57
+ * [new tag]           v0.2.58                 -> v0.2.58
+ * [new tag]           v0.2.59                 -> v0.2.59
+ * [new tag]           v0.2.6                  -> v0.2.6
+ * [new tag]           v0.2.60                 -> v0.2.60
+ * [new tag]           v0.2.61                 -> v0.2.61
+ * [new tag]           v0.2.62                 -> v0.2.62
+ * [new tag]           v0.2.63                 -> v0.2.63
+ * [new tag]           v0.2.64                 -> v0.2.64
+ * [new tag]           v0.2.65                 -> v0.2.65
+ * [new tag]           v0.2.66                 -> v0.2.66
+ * [new tag]           v0.2.67                 -> v0.2.67
+ * [new tag]           v0.2.68                 -> v0.2.68
+ * [new tag]           v0.2.69                 -> v0.2.69
+ * [new tag]           v0.2.7                  -> v0.2.7
+ * [new tag]           v0.2.70                 -> v0.2.70
+ * [new tag]           v0.2.71                 -> v0.2.71
+ * [new tag]           v0.2.72                 -> v0.2.72
+ * [new tag]           v0.2.73                 -> v0.2.73
+ * [new tag]           v0.2.74                 -> v0.2.74
+ * [new tag]           v0.2.75                 -> v0.2.75
+ * [new tag]           v0.2.76                 -> v0.2.76
+ * [new tag]           v0.2.77                 -> v0.2.77
+ * [new tag]           v0.2.78                 -> v0.2.78
+ * [new tag]           v0.2.79                 -> v0.2.79
+ * [new tag]           v0.2.8                  -> v0.2.8
+ * [new tag]           v0.2.9                  -> v0.2.9
+ * [new tag]           v0.3.0                  -> v0.3.0
+ * [new tag]           v0.3.1                  -> v0.3.1
+ * [new tag]           v0.3.10                 -> v0.3.10
+ * [new tag]           v0.3.11                 -> v0.3.11
+ * [new tag]           v0.3.12                 -> v0.3.12
+ * [new tag]           v0.3.13                 -> v0.3.13
+ * [new tag]           v0.3.14                 -> v0.3.14
+ * [new tag]           v0.3.15                 -> v0.3.15
+ * [new tag]           v0.3.16                 -> v0.3.16
+ * [new tag]           v0.3.17                 -> v0.3.17
+ * [new tag]           v0.3.18                 -> v0.3.18
+ * [new tag]           v0.3.19                 -> v0.3.19
+ * [new tag]           v0.3.2                  -> v0.3.2
+ * [new tag]           v0.3.20                 -> v0.3.20
+ * [new tag]           v0.3.21                 -> v0.3.21
+ * [new tag]           v0.3.22                 -> v0.3.22
+ * [new tag]           v0.3.23                 -> v0.3.23
+ * [new tag]           v0.3.24                 -> v0.3.24
+ * [new tag]           v0.3.25                 -> v0.3.25
+ * [new tag]           v0.3.26                 -> v0.3.26
+ * [new tag]           v0.3.29                 -> v0.3.29
+ * [new tag]           v0.3.3                  -> v0.3.3
+ * [new tag]           v0.3.30                 -> v0.3.30
+ * [new tag]           v0.3.31                 -> v0.3.31
+ * [new tag]           v0.3.32                 -> v0.3.32
+ * [new tag]           v0.3.33                 -> v0.3.33
+ * [new tag]           v0.3.34                 -> v0.3.34
+ * [new tag]           v0.3.35                 -> v0.3.35
+ * [new tag]           v0.3.36                 -> v0.3.36
+ * [new tag]           v0.3.37                 -> v0.3.37
+ * [new tag]           v0.3.38                 -> v0.3.38
+ * [new tag]           v0.3.39                 -> v0.3.39
+ * [new tag]           v0.3.4                  -> v0.3.4
+ * [new tag]           v0.3.40                 -> v0.3.40
+ * [new tag]           v0.3.41                 -> v0.3.41
+ * [new tag]           v0.3.42                 -> v0.3.42
+ * [new tag]           v0.3.43                 -> v0.3.43
+ * [new tag]           v0.3.44                 -> v0.3.44
+ * [new tag]           v0.3.45                 -> v0.3.45
+ * [new tag]           v0.3.46                 -> v0.3.46
+ * [new tag]           v0.3.47                 -> v0.3.47
+ * [new tag]           v0.3.48                 -> v0.3.48
+ * [new tag]           v0.3.49                 -> v0.3.49
+ * [new tag]           v0.3.5                  -> v0.3.5
+ * [new tag]           v0.3.50                 -> v0.3.50
+ * [new tag]           v0.3.51                 -> v0.3.51
+ * [new tag]           v0.3.52                 -> v0.3.52
+ * [new tag]           v0.3.53                 -> v0.3.53
+ * [new tag]           v0.3.54                 -> v0.3.54
+ * [new tag]           v0.3.55                 -> v0.3.55
+ * [new tag]           v0.3.56                 -> v0.3.56
+ * [new tag]           v0.3.57                 -> v0.3.57
+ * [new tag]           v0.3.58                 -> v0.3.58
+ * [new tag]           v0.3.59                 -> v0.3.59
+ * [new tag]           v0.3.6                  -> v0.3.6
+ * [new tag]           v0.3.60                 -> v0.3.60
+ * [new tag]           v0.3.61                 -> v0.3.61
+ * [new tag]           v0.3.62                 -> v0.3.62
+ * [new tag]           v0.3.65                 -> v0.3.65
+ * [new tag]           v0.3.66                 -> v0.3.66
+ * [new tag]           v0.3.67                 -> v0.3.67
+ * [new tag]           v0.3.69                 -> v0.3.69
+ * [new tag]           v0.3.7                  -> v0.3.7
+ * [new tag]           v0.3.70                 -> v0.3.70
+ * [new tag]           v0.3.71                 -> v0.3.71
+ * [new tag]           v0.3.72                 -> v0.3.72
+ * [new tag]           v0.3.73                 -> v0.3.73
+ * [new tag]           v0.3.74                 -> v0.3.74
+ * [new tag]           v0.3.75                 -> v0.3.75
+ * [new tag]           v0.3.76                 -> v0.3.76
+ * [new tag]           v0.3.77                 -> v0.3.77
+ * [new tag]           v0.3.78                 -> v0.3.78
+ * [new tag]           v0.3.79                 -> v0.3.79
+ * [new tag]           v0.3.8                  -> v0.3.8
+ * [new tag]           v0.3.80                 -> v0.3.80
+ * [new tag]           v0.3.81                 -> v0.3.81
+ * [new tag]           v0.3.82                 -> v0.3.82
+ * [new tag]           v0.3.85                 -> v0.3.85
+ * [new tag]           v0.3.86                 -> v0.3.86
+ * [new tag]           v0.3.87                 -> v0.3.87
+ * [new tag]           v0.3.88                 -> v0.3.88
+ * [new tag]           v0.3.89                 -> v0.3.89
+ * [new tag]           v0.3.9                  -> v0.3.9
+ * [new tag]           v0.3.90                 -> v0.3.90
+ * [new tag]           v0.3.91                 -> v0.3.91
+ * [new tag]           v0.3.92                 -> v0.3.92
+ * [new tag]           v0.3.93                 -> v0.3.93
+ * [new tag]           v0.3.94                 -> v0.3.94
+ * [new tag]           v0.3.95                 -> v0.3.95
+ * [new tag]           v0.4.1                  -> v0.4.1
+ * [new tag]           v0.4.10                 -> v0.4.10
+ * [new tag]           v0.4.11                 -> v0.4.11
+ * [new tag]           v0.4.12                 -> v0.4.12
+ * [new tag]           v0.4.13                 -> v0.4.13
+ * [new tag]           v0.4.14                 -> v0.4.14
+ * [new tag]           v0.4.15                 -> v0.4.15
+ * [new tag]           v0.4.16                 -> v0.4.16
+ * [new tag]           v0.4.17                 -> v0.4.17
+ * [new tag]           v0.4.18                 -> v0.4.18
+ * [new tag]           v0.4.19                 -> v0.4.19
+ * [new tag]           v0.4.2                  -> v0.4.2
+ * [new tag]           v0.4.20                 -> v0.4.20
+ * [new tag]           v0.4.21                 -> v0.4.21
+ * [new tag]           v0.4.22                 -> v0.4.22
+ * [new tag]           v0.4.23                 -> v0.4.23
+ * [new tag]           v0.4.25                 -> v0.4.25
+ * [new tag]           v0.4.26                 -> v0.4.26
+ * [new tag]           v0.4.27                 -> v0.4.27
+ * [new tag]           v0.4.28                 -> v0.4.28
+ * [new tag]           v0.4.3                  -> v0.4.3
+ * [new tag]           v0.4.4                  -> v0.4.4
+ * [new tag]           v0.4.5                  -> v0.4.5
+ * [new tag]           v0.4.6                  -> v0.4.6
+ * [new tag]           v0.4.7                  -> v0.4.7
+ * [new tag]           v0.4.8                  -> v0.4.8
+ * [new tag]           v0.4.9                  -> v0.4.9
+ * [new tag]           v0.5.0                  -> v0.5.0
+ * [new tag]           v0.5.1                  -> v0.5.1
+ * [new tag]           v0.5.10                 -> v0.5.10
+ * [new tag]           v0.5.11                 -> v0.5.11
+ * [new tag]           v0.5.13                 -> v0.5.13
+ * [new tag]           v0.5.14                 -> v0.5.14
+ * [new tag]           v0.5.15                 -> v0.5.15
+ * [new tag]           v0.5.16                 -> v0.5.16
+ * [new tag]           v0.5.17                 -> v0.5.17
+ * [new tag]           v0.5.18                 -> v0.5.18
+ * [new tag]           v0.5.19                 -> v0.5.19
+ * [new tag]           v0.5.2                  -> v0.5.2
+ * [new tag]           v0.5.20                 -> v0.5.20
+ * [new tag]           v0.5.21                 -> v0.5.21
+ * [new tag]           v0.5.22                 -> v0.5.22
+ * [new tag]           v0.5.23                 -> v0.5.23
+ * [new tag]           v0.5.24                 -> v0.5.24
+ * [new tag]           v0.5.25                 -> v0.5.25
+ * [new tag]           v0.5.26                 -> v0.5.26
+ * [new tag]           v0.5.27                 -> v0.5.27
+ * [new tag]           v0.5.3                  -> v0.5.3
+ * [new tag]           v0.5.4                  -> v0.5.4
+ * [new tag]           v0.5.5                  -> v0.5.5
+ * [new tag]           v0.5.6                  -> v0.5.6
+ * [new tag]           v0.5.7                  -> v0.5.7
+ * [new tag]           v0.5.8                  -> v0.5.8
+ * [new tag]           v0.5.9                  -> v0.5.9
+ * [new tag]           v0.6.0                  -> v0.6.0
+ * [new tag]           v0.6.0-beta.1           -> v0.6.0-beta.1
+ * [new tag]           v0.6.0-beta.2           -> v0.6.0-beta.2
+ * [new tag]           v0.6.1                  -> v0.6.1
+ * [new tag]           v0.6.1-experimental.1   -> v0.6.1-experimental.1
+ * [new tag]           v0.7-beta.2             -> v0.7-beta.2
+ * [new tag]           v0.7.0                  -> v0.7.0
+ * [new tag]           v0.7.0-beta.3           -> v0.7.0-beta.3
+ * [new tag]           v0.7.1                  -> v0.7.1
+ * [new tag]           v0.7.2                  -> v0.7.2
+ * [new tag]           v0.7.3                  -> v0.7.3
+ * [new tag]           v0.8.0-beta.1           -> v0.8.0-beta.1
+2024-10-11 18:07:57.854 [info] > git config --get commit.template [28ms]
+2024-10-11 18:07:57.855 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-10-11 18:07:57.925 [info] > git status -z -uall [36ms]
+2024-10-11 18:07:58.119 [info] > git config --get commit.template [25ms]
+2024-10-11 18:07:58.120 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-10-11 18:07:58.180 [info] > git status -z -uall [36ms]
+2024-10-11 18:07:59.245 [info] > git ls-files --stage -- /home/daposorunke/helloworld/pom.xml [5ms]
+2024-10-11 18:07:59.281 [info] > git cat-file -s 90ccd0912a49388b4570c5c668f5527050956926 [3ms]
+2024-10-11 18:07:59.361 [info] > git show --textconv :helloworld/pom.xml [4ms]
+2024-10-11 18:08:03.239 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-10-11 18:08:03.239 [info] > git config --get commit.template [31ms]
+2024-10-11 18:08:03.299 [info] > git status -z -uall [36ms]
+2024-10-11 18:08:07.015 [info] > git push [3ms]
+2024-10-11 18:08:07.015 [info] fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream thinkon-skills master
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+2024-10-11 18:08:07.097 [info] > git config --get commit.template [55ms]
+2024-10-11 18:08:07.098 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master [3ms]
+2024-10-11 18:08:07.129 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [61ms]
+2024-10-11 18:08:07.157 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master [29ms]
+2024-10-11 18:08:07.205 [info] > git config --local branch.master.vscode-merge-base [4ms]
+2024-10-11 18:08:07.205 [warning] git config failed: Failed to execute git
+2024-10-11 18:08:07.235 [info] > git status -z -uall [80ms]
+2024-10-11 18:08:07.236 [info] > git reflog refs/heads/master --grep-reflog=branch: Created from *. [2ms]
+2024-10-11 18:08:07.271 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [8ms]
+2024-10-11 18:08:07.271 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-10-11 18:08:07.271 [info] GitHistoryProvider:resolveHistoryItemGroupBase - Failed to resolve history item group base for 'refs/heads/master'
+2024-10-11 18:08:07.272 [info] GitHistoryProvider:resolveHistoryItemGroupCommonAncestor - Failed to resolve history item group base for 'refs/heads/master'
+2024-10-11 18:08:07.377 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master [6ms]
+2024-10-11 18:08:07.404 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master [2ms]
+2024-10-11 18:08:07.433 [info] > git config --local branch.master.vscode-merge-base [2ms]
+2024-10-11 18:08:07.433 [warning] git config failed: Failed to execute git
+2024-10-11 18:08:07.462 [info] > git reflog refs/heads/master --grep-reflog=branch: Created from *. [3ms]
+2024-10-11 18:08:07.490 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-10-11 18:08:07.490 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-10-11 18:08:07.490 [info] GitHistoryProvider:resolveHistoryItemGroupBase - Failed to resolve history item group base for 'refs/heads/master'
+2024-10-11 18:08:07.490 [info] GitHistoryProvider:resolveHistoryItemGroupCommonAncestor - Failed to resolve history item group base for 'refs/heads/master'
+2024-10-11 18:08:08.354 [info] > git config --get commit.template [27ms]
+2024-10-11 18:08:08.356 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-10-11 18:08:08.416 [info] > git status -z -uall [35ms]
+2024-10-11 18:08:11.356 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master [6ms]
+2024-10-11 18:08:11.399 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master [2ms]
+2024-10-11 18:08:11.436 [info] > git config --local branch.master.vscode-merge-base [2ms]
+2024-10-11 18:08:11.436 [warning] git config failed: Failed to execute git
+2024-10-11 18:08:11.474 [info] > git reflog refs/heads/master --grep-reflog=branch: Created from *. [3ms]
+2024-10-11 18:08:11.528 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [7ms]
+2024-10-11 18:08:11.529 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-10-11 18:08:11.529 [info] GitHistoryProvider:resolveHistoryItemGroupBase - Failed to resolve history item group base for 'refs/heads/master'
+2024-10-11 18:08:11.529 [info] GitHistoryProvider:resolveHistoryItemGroupCommonAncestor - Failed to resolve history item group base for 'refs/heads/master'
+2024-10-11 18:08:11.628 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master [7ms]
+2024-10-11 18:08:11.689 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master [9ms]
+2024-10-11 18:08:11.737 [info] > git config --local branch.master.vscode-merge-base [6ms]
+2024-10-11 18:08:11.737 [warning] git config failed: Failed to execute git
+2024-10-11 18:08:11.781 [info] > git reflog refs/heads/master --grep-reflog=branch: Created from *. [3ms]
+2024-10-11 18:08:11.825 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [8ms]
+2024-10-11 18:08:11.826 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-10-11 18:08:11.826 [info] GitHistoryProvider:resolveHistoryItemGroupBase - Failed to resolve history item group base for 'refs/heads/master'
+2024-10-11 18:08:11.826 [info] GitHistoryProvider:resolveHistoryItemGroupCommonAncestor - Failed to resolve history item group base for 'refs/heads/master'
+2024-10-11 18:08:12.072 [info] > git push -u thinkon-skills master [827ms]
+2024-10-11 18:08:12.072 [info] remote: Permission to danswer-ai/danswer.git denied to MichaelSorunke.
+fatal: unable to access 'https://github.com/danswer-ai/danswer.git/': The requested URL returned error: 403
+2024-10-11 18:08:16.965 [info] > git config --get commit.template [38ms]
+2024-10-11 18:08:16.966 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-10-11 18:08:17.050 [info] > git status -z -uall [50ms]
+2024-10-11 18:08:17.168 [info] > git config --get commit.template [72ms]
+2024-10-11 18:08:17.173 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master [8ms]
+2024-10-11 18:08:17.210 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [79ms]
+2024-10-11 18:08:17.247 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master [38ms]
+2024-10-11 18:08:17.306 [info] > git status -z -uall [63ms]
+2024-10-11 18:08:17.310 [info] > git config --local branch.master.vscode-merge-base [5ms]
+2024-10-11 18:08:17.310 [warning] git config failed: Failed to execute git
+2024-10-11 18:08:17.347 [info] > git reflog refs/heads/master --grep-reflog=branch: Created from *. [4ms]
+2024-10-11 18:08:17.384 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-10-11 18:08:17.384 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-10-11 18:08:17.384 [info] GitHistoryProvider:resolveHistoryItemGroupBase - Failed to resolve history item group base for 'refs/heads/master'
+2024-10-11 18:08:17.384 [info] GitHistoryProvider:resolveHistoryItemGroupCommonAncestor - Failed to resolve history item group base for 'refs/heads/master'
+2024-10-11 18:08:17.472 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master [4ms]
+2024-10-11 18:08:17.512 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master [2ms]
+2024-10-11 18:08:17.548 [info] > git config --local branch.master.vscode-merge-base [2ms]
+2024-10-11 18:08:17.548 [warning] git config failed: Failed to execute git
+2024-10-11 18:08:17.585 [info] > git reflog refs/heads/master --grep-reflog=branch: Created from *. [4ms]
+2024-10-11 18:08:17.621 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-10-11 18:08:17.621 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-10-11 18:08:17.621 [info] GitHistoryProvider:resolveHistoryItemGroupBase - Failed to resolve history item group base for 'refs/heads/master'
+2024-10-11 18:08:17.622 [info] GitHistoryProvider:resolveHistoryItemGroupCommonAncestor - Failed to resolve history item group base for 'refs/heads/master'
+2024-10-11 18:08:18.010 [info] > git check-ignore -v -z --stdin [6ms]
+2024-10-11 18:08:22.376 [info] > git config --get commit.template [30ms]
+2024-10-11 18:08:22.377 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-10-11 18:08:22.439 [info] > git status -z -uall [37ms]
+2024-10-11 18:08:27.505 [info] > git config --get commit.template [36ms]
+2024-10-11 18:08:27.506 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-10-11 18:08:27.583 [info] > git status -z -uall [41ms]
+2024-10-11 18:08:50.405 [info] > git config --get commit.template [28ms]
+2024-10-11 18:08:50.406 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-10-11 18:08:50.509 [info] > git status -z -uall [71ms]
+2024-10-11 18:08:54.735 [info] > git show --textconv :helloworld/src/main/resources/application.properties [29ms]
+2024-10-11 18:08:54.737 [info] > git ls-files --stage -- /home/daposorunke/helloworld/src/main/resources/application.properties [4ms]
+2024-10-11 18:08:54.771 [info] > git cat-file -s 40449c75691ad6d618f17b602e52374503854f12 [8ms]
+2024-10-11 18:08:54.928 [info] > git check-ignore -v -z --stdin [21ms]
+2024-10-11 18:08:55.565 [info] > git config --get commit.template [26ms]
+2024-10-11 18:08:55.566 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-10-11 18:08:55.626 [info] > git status -z -uall [36ms]
