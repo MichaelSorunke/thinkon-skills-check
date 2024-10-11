@@ -24,3 +24,6 @@ git user
 git config --global user.email "dapo_sorunke@yahoo.com"
 git config --global user.password "Dapperr24@"
 git config --global user.name "MichaelSorunke"
+git remote add origin https://github.com/MichaelSorunke/thinkon-skills-check.git
+git branch -M master
+git push -u origin master

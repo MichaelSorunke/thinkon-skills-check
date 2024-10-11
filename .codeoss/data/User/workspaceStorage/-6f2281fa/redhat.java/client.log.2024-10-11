@@ -464,3 +464,48 @@
   timestamp: '2024-10-11 18:03:02.361'
 }
 { level: 'error', timestamp: '2024-10-11 18:03:18.830' }
+{
+  message: 'Oct 11, 2024 6:13:10 PM com.microsoft.java.debug.plugin.internal.JavaDebuggerServerPlugin start\n' +
+    'INFO: Starting com.microsoft.java.debug.plugin\n',
+  level: 'info',
+  timestamp: '2024-10-11 18:13:10.901'
+}
+{
+  message: '[Error - 6:15:06 PM] Oct 11, 2024, 6:15:06 PM JavaBuilder handling ImageBuilderInternalException while building: jdt.ls-java-project\n' +
+    "'7ymB' is not a valid Java identifier\n" +
+    "Java Model Exception: Error in Java Model (code -1): '7ymB' is not a valid Java identifier\n" +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:574)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:233)\n' +
+    '\tat org.eclipse.jdt.internal.core.SourceRefElement.generateInfos(SourceRefElement.java:128)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:585)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:308)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:294)\n' +
+    '\tat org.eclipse.jdt.internal.core.Member.getNameRange(Member.java:399)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.createProblemFor(AbstractImageBuilder.java:443)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.acceptResult(AbstractImageBuilder.java:194)\n' +
+    '\tat org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:614)\n' +
+    '\tat org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:474)\n' +
+    '\tat org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:425)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:410)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.compile(IncrementalImageBuilder.java:370)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:341)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.incrementalBuildLoop(IncrementalImageBuilder.java:190)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.build(IncrementalImageBuilder.java:147)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:304)\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:221)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2024-10-11 18:15:06.263'
+}

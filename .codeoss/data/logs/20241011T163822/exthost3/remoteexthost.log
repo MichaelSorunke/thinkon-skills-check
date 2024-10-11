@@ -75,3 +75,30 @@
 2024-10-11 18:10:00.637 [error] Error: ENOENT: no such file or directory, lstat '/home/daposorunke/helloworld/src/main/resources/application.properties.git'
 2024-10-11 18:11:55.323 [error] Error: ENOENT: no such file or directory, lstat '/home/daposorunke/helloworld/pom.xml.git'
 2024-10-11 18:11:55.324 [error] Error: ENOENT: no such file or directory, lstat '/home/daposorunke/helloworld/src/main/resources/application.properties.git'
+2024-10-11 18:12:09.986 [error] Error: ENOENT: no such file or directory, lstat '/home/daposorunke/helloworld/pom.xml.git'
+2024-10-11 18:12:09.987 [error] Error: ENOENT: no such file or directory, lstat '/home/daposorunke/helloworld/src/main/resources/application.properties.git'
+2024-10-11 18:12:15.617 [error] Error: ENOENT: no such file or directory, lstat '/home/daposorunke/helloworld/pom.xml.git'
+2024-10-11 18:12:15.619 [error] Error: ENOENT: no such file or directory, lstat '/home/daposorunke/helloworld/src/main/resources/application.properties.git'
+2024-10-11 18:13:26.742 [error] Error: ENOENT: no such file or directory, lstat '/home/daposorunke/helloworld/pom.xml.git'
+2024-10-11 18:13:26.744 [error] Error: ENOENT: no such file or directory, lstat '/home/daposorunke/helloworld/src/main/resources/application.properties.git'
+2024-10-11 18:13:26.745 [error] Error: ENOENT: no such file or directory, lstat '/home/daposorunke/helloworld/src/main/java/com/example/demo/repository/UserRepository.java.git'
+2024-10-11 18:13:34.920 [error] Error: ENOENT: no such file or directory, lstat '/home/daposorunke/helloworld/pom.xml.git'
+2024-10-11 18:13:34.920 [error] Error: ENOENT: no such file or directory, lstat '/home/daposorunke/helloworld/src/main/resources/application.properties.git'
+2024-10-11 18:13:34.924 [error] Error: ENOENT: no such file or directory, lstat '/home/daposorunke/helloworld/src/main/java/com/example/demo/repository/UserRepository.java.git'
+2024-10-11 18:14:34.667 [error] Error: ENOENT: no such file or directory, lstat '/home/daposorunke/helloworld/pom.xml.git'
+2024-10-11 18:14:34.668 [error] Error: ENOENT: no such file or directory, lstat '/home/daposorunke/helloworld/src/main/resources/application.properties.git'
+2024-10-11 18:14:34.675 [error] Error: ENOENT: no such file or directory, lstat '/home/daposorunke/helloworld/src/main/java/com/example/demo/repository/UserRepository.java.git'
+2024-10-11 18:14:35.830 [error] [redhat.java] provider FAILED
+2024-10-11 18:14:35.915 [error] Error: The request (id: 26, method: 'textDocument/hover') has been cancelled
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106325
+    at ie (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106619)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101403
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101423)
+    at processImmediate (node:internal/timers:476:21)
+2024-10-11 18:15:07.215 [error] [redhat.java] provider FAILED
+2024-10-11 18:15:07.216 [error] Error: The request (id: 71, method: 'textDocument/hover') has been cancelled
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106325
+    at ie (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106619)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101403
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101423)
+    at processImmediate (node:internal/timers:476:21)
