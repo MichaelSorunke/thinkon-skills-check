@@ -23,3 +23,41 @@
 2024-10-11 18:03:18.862 [info] Eager extensions activated
 2024-10-11 18:04:53.101 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2945
 2024-10-11 18:04:54.772 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2945
+2024-10-11 18:05:06.797 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2945
+2024-10-11 18:05:07.808 [error] Error: Failed to execute git
+    at t.Git._exec (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:129576)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at t.Git.exec (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:128644)
+    at N.exec (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:134147)
+    at N.handleCommitError (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:141619)
+    at N.commit (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:141129)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:231394
+    at T.retryRun (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:246326)
+    at T.run (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:245930)
+    at T.commit (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:231076)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/github/dist/extension.js:2:16497
+2024-10-11 18:05:09.290 [error] Error: ENOENT: no such file or directory, lstat '/home/daposorunke/helloworld/pom.xml.git'
+2024-10-11 18:05:14.022 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2945
+2024-10-11 18:05:19.275 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2945
+2024-10-11 18:05:19.884 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2945
+2024-10-11 18:05:21.527 [error] Error: ENOENT: no such file or directory, lstat '/home/daposorunke/helloworld/pom.xml.git'
+2024-10-11 18:05:25.087 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2945
+2024-10-11 18:05:30.312 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2945
+2024-10-11 18:05:38.181 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2947
+2024-10-11 18:05:43.393 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2947
+2024-10-11 18:05:48.605 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2947
+2024-10-11 18:05:54.454 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2947
+2024-10-11 18:06:20.702 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2947
+2024-10-11 18:06:25.916 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2947
+2024-10-11 18:06:31.140 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2947
+2024-10-11 18:06:36.347 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2947
+2024-10-11 18:06:41.559 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2948
+2024-10-11 18:06:46.731 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2948
+2024-10-11 18:06:51.649 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2948
+2024-10-11 18:06:52.316 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2948
+2024-10-11 18:06:53.902 [error] Error: ENOENT: no such file or directory, lstat '/home/daposorunke/helloworld/pom.xml.git'
+2024-10-11 18:06:57.560 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2948
+2024-10-11 18:07:02.770 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2948
+2024-10-11 18:07:07.994 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2948
+2024-10-11 18:07:12.512 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2948
+2024-10-11 18:07:14.719 [error] Error: ENOENT: no such file or directory, lstat '/home/daposorunke/helloworld/pom.xml.git'

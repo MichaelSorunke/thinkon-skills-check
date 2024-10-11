@@ -20,3 +20,7 @@ curl -X POST http://localhost:8080/users -H "Content-Type: application/json" -d 
 ./mvnw test
 ./mvnw -DskipTests spring-boot:run
 ./mvnw spring-boot:run
+git user
+git config --global user.email "dapo_sorunke@yahoo.com"
+git config --global user.password "Dapperr24@"
+git config --global user.name "MichaelSorunke"
