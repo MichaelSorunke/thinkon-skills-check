@@ -1,0 +1,21 @@
+2024-10-11 16:38:22.981 [info] 
+
+
+
+
+2024-10-11 16:38:22.981 [info] Extension host agent started.
+2024-10-11 16:38:22.983 [info] Started initializing default profile extensions in extensions installation folder. file:///home/daposorunke/.codeoss/extensions
+2024-10-11 16:38:23.009 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/daposorunke/.codeoss/extensions
+2024-10-11 16:38:26.163 [info] [127.0.0.1][37dbcdbc][ManagementConnection] New connection established.
+2024-10-11 16:38:26.317 [info] [127.0.0.1][2dc46f18][ExtensionHostConnection] New connection established.
+2024-10-11 16:38:29.673 [info] [127.0.0.1][2dc46f18][ExtensionHostConnection] <1246> Launched Extension Host Process.
+2024-10-11 18:00:57.589 [info] [127.0.0.1][37dbcdbc][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-10-11 18:00:57.768 [info] [127.0.0.1][2dc46f18][ExtensionHostConnection] <1246> Extension Host Process exited with code: 0, signal: null.
+2024-10-11 18:02:19.099 [info] [127.0.0.1][d05e7184][ManagementConnection] New connection established.
+2024-10-11 18:02:19.107 [info] [127.0.0.1][7c774e76][ExtensionHostConnection] New connection established.
+2024-10-11 18:02:19.116 [info] [127.0.0.1][7c774e76][ExtensionHostConnection] <10919> Launched Extension Host Process.
+2024-10-11 18:02:45.907 [info] [127.0.0.1][d05e7184][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-10-11 18:02:46.739 [info] [127.0.0.1][7c774e76][ExtensionHostConnection] <10919> Extension Host Process exited with code: 0, signal: null.
+2024-10-11 18:02:50.394 [info] [127.0.0.1][11e14c23][ManagementConnection] New connection established.
+2024-10-11 18:02:50.445 [info] [127.0.0.1][929412ba][ExtensionHostConnection] New connection established.
+2024-10-11 18:02:50.465 [info] [127.0.0.1][929412ba][ExtensionHostConnection] <11168> Launched Extension Host Process.

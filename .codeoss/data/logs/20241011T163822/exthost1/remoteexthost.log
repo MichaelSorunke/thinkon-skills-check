@@ -1,0 +1,311 @@
+2024-10-11 16:38:31.493 [info] Extension host with pid 1246 started
+2024-10-11 16:38:31.518 [info] Lock '/home/daposorunke/.codeoss/data/User/workspaceStorage/-6f2281fa/vscode.lock': Lock acquired.
+2024-10-11 16:38:31.581 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-10-11 16:38:31.683 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-10-11 16:38:31.762 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-10-11 16:38:31.763 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-10-11 16:38:32.066 [info] ExtensionService#_doActivateExtension vscjava.vscode-maven, startup: true, activationEvent: 'workspaceContains:**/pom.xml'
+2024-10-11 16:38:32.067 [info] ExtensionService#_doActivateExtension redhat.java, startup: true, activationEvent: 'workspaceContains:*/pom.xml,*/build.gradle,*/settings.gradle,*/build.gradle.kts,*/settings.gradle.kts,*/.classpath', root cause: vscjava.vscode-java-test
+2024-10-11 16:38:32.068 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-debug, startup: true, activationEvent: 'workspaceContains:*/pom.xml,*/build.gradle,*/settings.gradle,*/build.gradle.kts,*/settings.gradle.kts,*/.classpath', root cause: vscjava.vscode-java-test
+2024-10-11 16:38:32.068 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-dependency, startup: true, activationEvent: 'workspaceContains:*/pom.xml,*/build.gradle,*/settings.gradle,*/build.gradle.kts,*/settings.gradle.kts,*/.classpath'
+2024-10-11 16:38:32.069 [info] ExtensionService#_doActivateExtension redhat.fabric8-analytics, startup: true, activationEvent: 'workspaceContains:**/package.json,**/pom.xml,**/go.mod,**/requirements.txt'
+2024-10-11 16:38:33.934 [warning] [redhat.java] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[java]', provide the URI of a resource or 'null' for any resource.
+2024-10-11 16:38:34.009 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-test, startup: true, activationEvent: 'workspaceContains:*/pom.xml,*/build.gradle,*/settings.gradle,*/build.gradle.kts,*/settings.gradle.kts,*/.classpath'
+2024-10-11 16:38:34.314 [warning] [redhat.java] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[java]', provide the URI of a resource or 'null' for any resource.
+2024-10-11 16:38:41.690 [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig, startup: false, activationEvent: 'onStartupFinished'
+2024-10-11 16:38:41.691 [info] ExtensionService#_doActivateExtension google.cloud-shell, startup: false, activationEvent: 'onStartupFinished'
+2024-10-11 16:38:41.692 [info] ExtensionService#_doActivateExtension googlecloudtools.cloudcode, startup: false, activationEvent: 'onStartupFinished'
+2024-10-11 16:38:41.693 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-10-11 16:38:41.693 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-10-11 16:38:50.278 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-10-11 16:38:50.281 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-10-11 16:39:17.549 [error] Error: The request (id: 3, method: 'workspace/executeCommand') has been cancelled
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106325
+    at ie (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106619)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101403
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101423)
+    at processImmediate (node:internal/timers:476:21) java.execute.workspaceCommand {"value":"redhat.java","_lower":"redhat.java"}
+2024-10-11 16:39:17.586 [error] Error: The request (id: 4, method: 'workspace/executeCommand') has been cancelled
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106325
+    at ie (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106619)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101403
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101423)
+    at processImmediate (node:internal/timers:476:21) java.execute.workspaceCommand {"value":"redhat.java","_lower":"redhat.java"}
+2024-10-11 16:39:17.723 [info] Eager extensions activated
+2024-10-11 16:39:19.650 [error] [redhat.java] provider FAILED
+2024-10-11 16:39:19.650 [error] Error: The request (id: 22, method: 'textDocument/documentSymbol') has been cancelled
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106325
+    at ie (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106619)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101403
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101423)
+    at processImmediate (node:internal/timers:476:21)
+2024-10-11 16:39:23.559 [error] [redhat.java] provider FAILED
+2024-10-11 16:39:23.563 [error] Error: Internal error.
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106325
+    at ie (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106619)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101403
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101423)
+    at processImmediate (node:internal/timers:476:21)
+2024-10-11 16:39:30.192 [error] [redhat.java] provider FAILED
+2024-10-11 16:39:30.192 [error] Error: The request (id: 36, method: 'textDocument/hover') has been cancelled
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106325
+    at ie (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106619)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101403
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101423)
+    at processImmediate (node:internal/timers:476:21)
+2024-10-11 16:39:35.365 [error] [redhat.java] provider FAILED
+2024-10-11 16:39:35.366 [error] Error: The request (id: 40, method: 'textDocument/hover') has been cancelled
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106325
+    at ie (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106619)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101403
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101423)
+    at processImmediate (node:internal/timers:476:21)
+2024-10-11 16:39:36.305 [error] [redhat.java] provider FAILED
+2024-10-11 16:39:36.306 [error] Error: The request (id: 41, method: 'textDocument/hover') has been cancelled
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106325
+    at ie (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106619)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101403
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101423)
+    at processImmediate (node:internal/timers:476:21)
+2024-10-11 16:39:42.293 [error] [redhat.java] provider FAILED
+2024-10-11 16:39:42.293 [error] Error: The request (id: 44, method: 'textDocument/hover') has been cancelled
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106325
+    at ie (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106619)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101403
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101423)
+    at processImmediate (node:internal/timers:476:21)
+2024-10-11 16:39:44.908 [error] [redhat.java] provider FAILED
+2024-10-11 16:39:44.910 [error] Error: The request (id: 58, method: 'textDocument/hover') has been cancelled
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106325
+    at ie (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106619)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101403
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101423)
+    at processImmediate (node:internal/timers:476:21)
+2024-10-11 16:39:45.172 [error] [redhat.java] provider FAILED
+2024-10-11 16:39:45.173 [error] Error: The request (id: 60, method: 'textDocument/hover') has been cancelled
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106325
+    at ie (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106619)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101403
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101423)
+    at processImmediate (node:internal/timers:476:21)
+2024-10-11 16:45:44.805 [error] [redhat.java] provider FAILED
+2024-10-11 16:45:44.805 [error] Error: The request (id: 114, method: 'textDocument/hover') has been cancelled
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106325
+    at ie (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106619)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101403
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101423)
+    at processImmediate (node:internal/timers:476:21)
+2024-10-11 16:45:45.755 [error] [redhat.java] provider FAILED
+2024-10-11 16:45:45.756 [error] Error: The request (id: 115, method: 'textDocument/hover') has been cancelled
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106325
+    at ie (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106619)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101403
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101423)
+    at processImmediate (node:internal/timers:476:21)
+2024-10-11 16:53:17.543 [error] [redhat.java] provider FAILED
+2024-10-11 16:53:17.543 [error] Error: The request (id: 294, method: 'textDocument/hover') has been cancelled
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106325
+    at ie (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106619)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101403
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101423)
+    at processImmediate (node:internal/timers:476:21)
+2024-10-11 16:53:53.856 [error] [redhat.java] provider FAILED
+2024-10-11 16:53:53.857 [error] Error: The request (id: 356, method: 'textDocument/hover') has been cancelled
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106325
+    at ie (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106619)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101403
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101423)
+    at processImmediate (node:internal/timers:476:21)
+2024-10-11 16:53:54.966 [error] [redhat.java] provider FAILED
+2024-10-11 16:53:54.966 [error] Error: The request (id: 357, method: 'textDocument/hover') has been cancelled
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106325
+    at ie (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106619)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101403
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101423)
+    at processImmediate (node:internal/timers:476:21)
+2024-10-11 16:59:01.199 [error] [redhat.java] provider FAILED
+2024-10-11 16:59:01.199 [error] Error: The request (id: 496, method: 'textDocument/hover') has been cancelled
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106325
+    at ie (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106619)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101403
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101423)
+    at processImmediate (node:internal/timers:476:21)
+2024-10-11 16:59:32.841 [error] [redhat.java] provider FAILED
+2024-10-11 16:59:32.841 [error] Error: The request (id: 509, method: 'textDocument/hover') has been cancelled
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106325
+    at ie (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106619)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101403
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101423)
+    at processImmediate (node:internal/timers:476:21)
+2024-10-11 16:59:33.622 [error] [redhat.java] provider FAILED
+2024-10-11 16:59:33.622 [error] Error: The request (id: 510, method: 'textDocument/hover') has been cancelled
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106325
+    at ie (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106619)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101403
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101423)
+    at processImmediate (node:internal/timers:476:21)
+2024-10-11 17:00:00.322 [error] [redhat.java] provider FAILED
+2024-10-11 17:00:00.323 [error] Error: The request (id: 546, method: 'textDocument/hover') has been cancelled
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106325
+    at ie (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106619)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101403
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101423)
+    at processImmediate (node:internal/timers:476:21)
+2024-10-11 17:00:01.348 [error] [redhat.java] provider FAILED
+2024-10-11 17:00:01.349 [error] Error: The request (id: 555, method: 'textDocument/hover') has been cancelled
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106325
+    at ie (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106619)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101403
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101423)
+    at processImmediate (node:internal/timers:476:21)
+2024-10-11 17:00:01.580 [error] [redhat.java] provider FAILED
+2024-10-11 17:00:01.581 [error] Error: The request (id: 556, method: 'textDocument/hover') has been cancelled
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106325
+    at ie (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106619)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101403
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101423)
+    at processImmediate (node:internal/timers:476:21)
+2024-10-11 17:00:09.942 [error] [redhat.java] provider FAILED
+2024-10-11 17:00:09.943 [error] Error: The request (id: 576, method: 'textDocument/hover') has been cancelled
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106325
+    at ie (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106619)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101403
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101423)
+    at processImmediate (node:internal/timers:476:21)
+2024-10-11 17:01:25.118 [error] [redhat.java] provider FAILED
+2024-10-11 17:01:25.122 [error] Error: The request (id: 626, method: 'textDocument/hover') has been cancelled
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106325
+    at ie (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106619)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101403
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101423)
+    at processImmediate (node:internal/timers:476:21)
+2024-10-11 17:02:15.525 [error] [redhat.java] provider FAILED
+2024-10-11 17:02:15.526 [error] Error: The request (id: 673, method: 'textDocument/hover') has been cancelled
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106325
+    at ie (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106619)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101403
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101423)
+    at processImmediate (node:internal/timers:476:21)
+2024-10-11 17:03:02.654 [error] [redhat.java] provider FAILED
+2024-10-11 17:03:02.655 [error] Error: The request (id: 674, method: 'textDocument/hover') has been cancelled
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106325
+    at ie (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106619)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101403
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101423)
+    at processImmediate (node:internal/timers:476:21)
+2024-10-11 17:05:39.359 [error] [redhat.java] provider FAILED
+2024-10-11 17:05:39.360 [error] Error: Internal error.
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106325
+    at ie (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106619)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101403
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101423)
+    at processImmediate (node:internal/timers:476:21)
+2024-10-11 17:06:13.040 [error] [redhat.java] provider FAILED
+2024-10-11 17:06:13.041 [error] Error: The request (id: 785, method: 'textDocument/hover') has been cancelled
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106325
+    at ie (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106619)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101403
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101423)
+    at processImmediate (node:internal/timers:476:21)
+2024-10-11 17:11:47.224 [error] [redhat.java] provider FAILED
+2024-10-11 17:11:47.224 [error] Error: The request (id: 857, method: 'textDocument/hover') has been cancelled
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106325
+    at ie (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106619)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101403
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101423)
+    at processImmediate (node:internal/timers:476:21)
+2024-10-11 17:13:51.120 [error] [redhat.java] provider FAILED
+2024-10-11 17:13:51.121 [error] Error: The request (id: 920, method: 'textDocument/hover') has been cancelled
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106325
+    at ie (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106619)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101403
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101423)
+    at processImmediate (node:internal/timers:476:21)
+2024-10-11 17:14:50.894 [error] [redhat.java] provider FAILED
+2024-10-11 17:14:50.894 [error] Error: The request (id: 935, method: 'textDocument/hover') has been cancelled
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106325
+    at ie (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106619)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101403
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101423)
+    at processImmediate (node:internal/timers:476:21)
+2024-10-11 17:15:02.775 [error] [redhat.java] provider FAILED
+2024-10-11 17:15:02.775 [error] Error: The request (id: 972, method: 'textDocument/hover') has been cancelled
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106325
+    at ie (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106619)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101403
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101423)
+    at processImmediate (node:internal/timers:476:21)
+2024-10-11 17:15:03.157 [error] [redhat.java] provider FAILED
+2024-10-11 17:15:03.158 [error] Error: The request (id: 975, method: 'textDocument/hover') has been cancelled
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106325
+    at ie (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106619)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101403
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101423)
+    at processImmediate (node:internal/timers:476:21)
+2024-10-11 17:15:07.382 [error] [redhat.java] provider FAILED
+2024-10-11 17:15:07.382 [error] Error: The request (id: 994, method: 'textDocument/documentSymbol') has been cancelled
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106325
+    at ie (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106619)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101403
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101423)
+    at processImmediate (node:internal/timers:476:21)
+2024-10-11 17:15:14.591 [error] [redhat.java] provider FAILED
+2024-10-11 17:15:14.592 [error] Error: The request (id: 1038, method: 'textDocument/documentSymbol') has been cancelled
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106325
+    at ie (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106619)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101403
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101423)
+    at processImmediate (node:internal/timers:476:21)
+2024-10-11 17:15:14.607 [error] Error: The request (id: 1036, method: 'workspace/executeCommand') has been cancelled
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106325
+    at ie (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106619)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101403
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101423)
+    at processImmediate (node:internal/timers:476:21) java.execute.workspaceCommand {"value":"redhat.java","_lower":"redhat.java"}
+2024-10-11 17:22:49.406 [error] [redhat.java] provider FAILED
+2024-10-11 17:22:49.407 [error] Error: The request (id: 1077, method: 'textDocument/hover') has been cancelled
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106325
+    at ie (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106619)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101403
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101423)
+    at processImmediate (node:internal/timers:476:21)
+2024-10-11 17:25:50.142 [error] [redhat.java] provider FAILED
+2024-10-11 17:25:50.143 [error] Error: The request (id: 1105, method: 'textDocument/hover') has been cancelled
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106325
+    at ie (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106619)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101403
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101423)
+    at processImmediate (node:internal/timers:476:21)
+2024-10-11 17:27:20.343 [error] [redhat.java] provider FAILED
+2024-10-11 17:27:20.344 [error] Error: The request (id: 1231, method: 'textDocument/hover') has been cancelled
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106325
+    at ie (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106619)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101403
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101423)
+    at processImmediate (node:internal/timers:476:21)
+2024-10-11 17:27:21.433 [error] [redhat.java] provider FAILED
+2024-10-11 17:27:21.433 [error] Error: The request (id: 1234, method: 'textDocument/hover') has been cancelled
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106325
+    at ie (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106619)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101403
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101423)
+    at processImmediate (node:internal/timers:476:21)
+2024-10-11 17:27:30.540 [error] [redhat.java] provider FAILED
+2024-10-11 17:27:30.541 [error] Error: The request (id: 1237, method: 'textDocument/hover') has been cancelled
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106325
+    at ie (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106619)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101403
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101423)
+    at processImmediate (node:internal/timers:476:21)
+2024-10-11 17:29:26.871 [info] ExtensionService#_doActivateExtension vscode.debug-server-ready, startup: false, activationEvent: 'onDebugResolve'
+2024-10-11 17:30:25.117 [error] [redhat.java] provider FAILED
+2024-10-11 17:30:25.118 [error] Error: The request (id: 1355, method: 'textDocument/hover') has been cancelled
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106325
+    at ie (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106619)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101403
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101423)
+    at processImmediate (node:internal/timers:476:21)
+2024-10-11 17:58:17.030 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-10-11 18:00:57.578 [info] Extension host terminating: received terminate message from renderer
+2024-10-11 18:00:57.580 [info] Lock '/home/daposorunke/.codeoss/data/User/workspaceStorage/-6f2281fa/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-10-11 18:00:57.671 [info] Extension host with pid 1246 exiting with code 0

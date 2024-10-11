@@ -1,0 +1,2172 @@
+!SESSION 2024-10-11 16:38:35.567 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.12
+java.vendor=Ubuntu
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  --pipe=/tmp/lsp-ecf854e8e3d99707377af42e96217da2.sock
+Command-line arguments:  -data /home/daposorunke/.codeoss/data/User/workspaceStorage/-6f2281fa/redhat.java/jdt_ws --pipe=/tmp/lsp-ecf854e8e3d99707377af42e96217da2.sock
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:38:47.039
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:38:48.091
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:38:50.108
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:38:50.124
+!MESSAGE Initializing Java Language Server 1.37.0.202406190804
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:38:50.127
+!MESSAGE Started org.eclipse.m2e.core 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:38:50.136
+!MESSAGE ProjectRegistryRefreshJob finished 4ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:38:50.293
+!MESSAGE Started org.eclipse.buildship.core 155ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:38:50.981
+!MESSAGE Setting /usr/lib/jvm/java-21-openjdk-amd64 as 'JavaSE-21' environment (id:1728664730891)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:38:51.059
+!MESSAGE Setting /usr/lib/jvm/java-11-openjdk-amd64 as 'JavaSE-11' environment (id:1728664731015)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:38:51.078
+!MESSAGE Setting /usr/lib/jvm/java-17-openjdk-amd64 as 'JavaSE-17' environment (id:1728664730761)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:38:51.091
+!MESSAGE JVM Runtimes changed, saving new configuration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:38:51.183
+!MESSAGE Installed reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-debug/server/com.microsoft.java.debug.plugin-0.52.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:38:51.200
+!MESSAGE Installed reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-dependency/server/com.microsoft.jdtls.ext.core-0.23.6.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:38:51.225
+!MESSAGE Installed reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/junit-jupiter-api_5.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:38:51.249
+!MESSAGE Installed reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/junit-jupiter-engine_5.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:38:51.264
+!MESSAGE Installed reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/junit-jupiter-migrationsupport_5.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:38:51.285
+!MESSAGE Installed reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/junit-jupiter-params_5.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:38:51.329
+!MESSAGE Installed reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/junit-platform-commons_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:38:51.354
+!MESSAGE Installed reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/junit-platform-engine_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:38:51.384
+!MESSAGE Installed reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/junit-platform-launcher_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:38:51.409
+!MESSAGE Installed reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/junit-platform-runner_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:38:51.432
+!MESSAGE Installed reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/junit-platform-suite-api_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:38:51.493
+!MESSAGE Installed reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/junit-platform-suite-commons_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:38:51.518
+!MESSAGE Installed reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/junit-platform-suite-engine_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:38:51.542
+!MESSAGE Installed reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/junit-vintage-engine_5.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:38:51.570
+!MESSAGE Installed reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/org.apiguardian.api_1.1.2.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:38:51.603
+!MESSAGE Installed reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/org.eclipse.jdt.junit4.runtime_1.3.0.v20220609-1843.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:38:51.633
+!MESSAGE Installed reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/org.eclipse.jdt.junit5.runtime_1.1.100.v20220907-0450.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:38:51.650
+!MESSAGE Installed reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/org.opentest4j_1.2.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:38:51.667
+!MESSAGE Installed reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/org.jacoco.core_0.8.12.202403310830.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:38:51.682
+!MESSAGE Installed reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/com.microsoft.java.test.plugin-0.41.1.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:38:51.704
+!MESSAGE Installed reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-maven/jdtls.ext/com.microsoft.java.maven.plugin/target/com.microsoft.java.maven.plugin-0.39.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:38:51.778
+!MESSAGE Started reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/junit-jupiter-migrationsupport_5.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:38:51.951
+!MESSAGE Started reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-dependency/server/com.microsoft.jdtls.ext.core-0.23.6.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:38:51.975
+!MESSAGE Started reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/org.eclipse.jdt.junit4.runtime_1.3.0.v20220609-1843.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:38:52.174
+!MESSAGE Started reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/com.microsoft.java.test.plugin-0.41.1.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:38:52.189
+!MESSAGE Started reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/junit-platform-engine_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:38:52.191
+!MESSAGE Started reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/junit-platform-launcher_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:38:52.316
+!MESSAGE Started reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-debug/server/com.microsoft.java.debug.plugin-0.52.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:38:52.323
+!MESSAGE Started reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/junit-jupiter-api_5.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:38:52.334
+!MESSAGE Started reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/junit-jupiter-engine_5.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:38:52.337
+!MESSAGE Started reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/junit-platform-suite-engine_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:38:52.340
+!MESSAGE Started reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/org.eclipse.jdt.junit5.runtime_1.1.100.v20220907-0450.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:38:52.347
+!MESSAGE Started reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/org.opentest4j_1.2.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:38:52.349
+!MESSAGE Started reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/junit-platform-commons_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:38:52.351
+!MESSAGE Started reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/org.jacoco.core_0.8.12.202403310830.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:38:52.363
+!MESSAGE Started reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/junit-jupiter-params_5.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:38:52.366
+!MESSAGE Started reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/junit-platform-suite-commons_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:38:52.367
+!MESSAGE Started reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/junit-platform-runner_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:38:52.370
+!MESSAGE Started reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/junit-vintage-engine_5.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:38:52.371
+!MESSAGE Started reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/org.apiguardian.api_1.1.2.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:38:52.376
+!MESSAGE Started reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/junit-platform-suite-api_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:38:52.466
+!MESSAGE Started reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-maven/jdtls.ext/com.microsoft.java.maven.plugin/target/com.microsoft.java.maven.plugin-0.39.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:38:52.483
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:38:52.484
+!MESSAGE Non-Static Commands: [java.project.import, java.project.changeImportedProjects, java.navigate.openTypeHierarchy, java.project.resolveStackTraceLocation, java.edit.handlePasteEvent, java.edit.stringFormatting, java.project.getSettings, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.project.createModuleInfo, java.vm.getAllInstalls, java.edit.organizeImports, java.project.refreshDiagnostics, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.updateSettings, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.project.resolveText, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.smartSemicolonDetection, java.project.updateSourceAttachment, java.project.updateClassPaths, java.decompile, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.updateJdk, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:38:52.489
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:38:52.491
+!MESSAGE Non-Static Commands: [java.project.refreshLib, java.project.checkImportStatus, java.project.list, java.project.generateJar, java.project.getMainClasses, java.getPackageData, java.resolvePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:38:52.491
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:38:52.492
+!MESSAGE Non-Static Commands: [vscode.java.test.jacoco.getCoverageDetail, vscode.java.test.findJavaProjects, vscode.java.test.findTestPackagesAndTypes, vscode.java.test.findTestTypesAndMethods, vscode.java.test.resolvePath, vscode.java.test.findTestLocation, vscode.java.test.get.testpath, vscode.java.test.findDirectTestChildrenForClass, vscode.java.test.navigateToTestOrTarget, vscode.java.test.junit.argument, vscode.java.test.generateTests]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:38:52.500
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:38:52.501
+!MESSAGE Non-Static Commands: [vscode.java.checkProjectSettings, vscode.java.isOnClasspath, vscode.java.fetchUsageData, vscode.java.validateLaunchConfig, vscode.java.resolveInlineVariables, vscode.java.resolveClassFilters, vscode.java.resolveMainMethod, vscode.java.resolveClasspath, vscode.java.resolveBuildFiles, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.resolveSourceUri, vscode.java.fetchPlatformSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection, vscode.java.resolveJavaExecutable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:38:52.502
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:38:52.502
+!MESSAGE Non-Static Commands: [java.maven.initializeSearcher, java.maven.searchArtifact, java.maven.addDependency, java.maven.controlContext]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:38:52.564
+!MESSAGE RepositoryRegistryUpdateJob finished 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:38:52.669
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:38:52.899
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:39:14.767
+!MESSAGE Workspace initialized in 22201ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:39:14.805
+!MESSAGE >> initialization job finished
+
+!ENTRY java-debug 1 0 2024-10-11 16:39:17.752
+!MESSAGE Starting com.microsoft.java.debug.plugin
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:39:17.796
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:39:22.168
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:39:22.175
+!MESSAGE User abort while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:39:23.045
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:39:23.046
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:39:23.048
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:39:23.066
+!MESSAGE begin problem for /DemoApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:39:23.075
+!MESSAGE 0 problems reported for /DemoApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:39:23.084
+!MESSAGE Reconciled 1. Took 23 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:39:23.085
+!MESSAGE Validated 1. Took 265 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:39:27.636
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:39:28.249
+!MESSAGE begin problem for /DemoApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:39:28.252
+!MESSAGE 2 problems reported for /DemoApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:39:28.257
+!MESSAGE Validated 1. Took 170 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:39:43.233
+!MESSAGE Reconciled 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:39:43.642
+!MESSAGE Reconciled 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:39:44.282
+!MESSAGE begin problem for /DemoApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:39:44.283
+!MESSAGE 0 problems reported for /DemoApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:39:44.292
+!MESSAGE Validated 1. Took 199 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:39:45.244
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:39:45.321
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:39:45.637
+!MESSAGE Finished creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:39:45.855
+!MESSAGE begin problem for /DemoApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:39:45.856
+!MESSAGE 0 problems reported for /DemoApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:39:45.857
+!MESSAGE Validated 1. Took 135 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:44:53.607
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:45:24.595
+!MESSAGE begin problem for /DemoApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:45:24.595
+!MESSAGE 0 problems reported for /DemoApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:45:24.597
+!MESSAGE Validated 1. Took 82 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:45:38.538
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:45:38.557
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:45:38.880
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:45:39.384
+!MESSAGE begin problem for /UserController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:45:39.385
+!MESSAGE 0 problems reported for /UserController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:45:39.388
+!MESSAGE Validated 1. Took 56 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:45:41.075
+!MESSAGE Reconciled 1. Took 107 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:45:41.644
+!MESSAGE begin problem for /UserController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:45:41.645
+!MESSAGE 16 problems reported for /UserController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:45:41.652
+!MESSAGE Validated 1. Took 124 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:45:42.617
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:45:43.494
+!MESSAGE begin problem for /UserController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:45:43.494
+!MESSAGE 16 problems reported for /UserController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:45:43.496
+!MESSAGE Validated 1. Took 125 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:45:49.020
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:45:49.492
+!MESSAGE begin problem for /UserController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:45:49.493
+!MESSAGE 0 problems reported for /UserController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:45:49.494
+!MESSAGE Validated 1. Took 23 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:45:50.583
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:45:51.060
+!MESSAGE begin problem for /UserController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:45:51.060
+!MESSAGE 0 problems reported for /UserController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:45:51.062
+!MESSAGE Validated 1. Took 29 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:46:21.967
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:46:22.006
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:46:22.426
+!MESSAGE Reconciled 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:46:22.913
+!MESSAGE begin problem for /USer.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:46:22.914
+!MESSAGE 0 problems reported for /USer.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:46:22.916
+!MESSAGE Validated 1. Took 39 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:46:36.442
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:46:36.684
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:46:36.702
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:46:36.950
+!MESSAGE Clearing problems for /USer.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:46:37.202
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:46:37.969
+!MESSAGE begin problem for /User.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:46:37.969
+!MESSAGE 0 problems reported for /User.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:46:37.971
+!MESSAGE Validated 1. Took 318 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:46:38.788
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:46:39.205
+!MESSAGE begin problem for /User.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:46:39.206
+!MESSAGE 0 problems reported for /User.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:46:39.207
+!MESSAGE Validated 1. Took 18 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:46:40.236
+!MESSAGE Reconciled 1. Took 99 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:46:40.858
+!MESSAGE begin problem for /User.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:46:40.859
+!MESSAGE 0 problems reported for /User.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:46:40.859
+!MESSAGE Validated 1. Took 172 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:46:42.495
+!MESSAGE ClassFile contents request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:46:43.297
+!MESSAGE ClassFile contents request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:47:13.557
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:47:13.559
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:47:14.099
+!MESSAGE begin problem for /UserRepository.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:47:14.100
+!MESSAGE 0 problems reported for /UserRepository.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:47:14.105
+!MESSAGE Validated 1. Took 102 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:47:14.293
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:47:14.765
+!MESSAGE begin problem for /UserRepository.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:47:14.766
+!MESSAGE 0 problems reported for /UserRepository.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:47:14.767
+!MESSAGE Validated 1. Took 22 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:47:16.835
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:47:17.356
+!MESSAGE begin problem for /UserRepository.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:47:17.358
+!MESSAGE 0 problems reported for /UserRepository.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:47:17.359
+!MESSAGE Validated 1. Took 73 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:47:41.934
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:47:41.959
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:47:42.409
+!MESSAGE begin problem for /UserService.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:47:42.410
+!MESSAGE 0 problems reported for /UserService.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:47:42.412
+!MESSAGE Reconciled 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:47:42.415
+!MESSAGE Validated 1. Took 52 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:48:30.803
+!MESSAGE Reconciled 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:48:31.368
+!MESSAGE begin problem for /UserService.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:48:31.374
+!MESSAGE 0 problems reported for /UserService.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:48:31.376
+!MESSAGE Validated 1. Took 122 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:48:46.148
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:48:46.625
+!MESSAGE begin problem for /UserController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:48:46.626
+!MESSAGE 0 problems reported for /UserController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:48:46.628
+!MESSAGE Validated 1. Took 18 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:48:47.576
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:48:48.130
+!MESSAGE begin problem for /UserController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:48:48.131
+!MESSAGE 0 problems reported for /UserController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:48:48.132
+!MESSAGE Validated 1. Took 106 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:53:16.803
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:53:17.376
+!MESSAGE begin problem for /User.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:53:17.387
+!MESSAGE 0 problems reported for /User.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:53:17.389
+!MESSAGE Validated 1. Took 133 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:53:24.783
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:53:25.235
+!MESSAGE begin problem for /User.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:53:25.236
+!MESSAGE 14 problems reported for /User.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:53:25.242
+!MESSAGE Validated 1. Took 58 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:53:26.588
+!MESSAGE Reconciled 1. Took 22 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:53:26.641
+!MESSAGE Reconciled 2. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:53:27.565
+!MESSAGE begin problem for /User.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:53:27.568
+!MESSAGE 0 problems reported for /User.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:53:27.699
+!MESSAGE begin problem for /UserService.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:53:27.699
+!MESSAGE 0 problems reported for /UserService.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:53:27.702
+!MESSAGE Validated 2. Took 659 ms
+
+!ENTRY org.eclipse.jdt.core 4 4 2024-10-11 16:53:28.921
+!MESSAGE JavaBuilder handling ImageBuilderInternalException while building: jdt.ls-java-project
+!STACK 1
+Java Model Exception: Error in Java Model (code -1): '4wAW' is not a valid Java identifier
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:574)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:233)
+	at org.eclipse.jdt.internal.core.SourceRefElement.generateInfos(SourceRefElement.java:128)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:585)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:308)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:294)
+	at org.eclipse.jdt.internal.core.Member.getNameRange(Member.java:399)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.createProblemFor(AbstractImageBuilder.java:443)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.acceptResult(AbstractImageBuilder.java:194)
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:614)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:474)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:425)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:410)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.compile(IncrementalImageBuilder.java:370)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:341)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.incrementalBuildLoop(IncrementalImageBuilder.java:190)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.build(IncrementalImageBuilder.java:147)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:304)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:221)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 -1 2024-10-11 16:53:28.922
+!MESSAGE '4wAW' is not a valid Java identifier
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:53:29.028
+!MESSAGE Reconciled 2. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:53:29.558
+!MESSAGE begin problem for /User.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:53:29.559
+!MESSAGE 0 problems reported for /User.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:53:29.648
+!MESSAGE begin problem for /UserService.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:53:29.650
+!MESSAGE 0 problems reported for /UserService.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:53:29.652
+!MESSAGE Validated 2. Took 173 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:53:29.830
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:53:30.302
+!MESSAGE begin problem for /User.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:53:30.303
+!MESSAGE 14 problems reported for /User.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:53:30.306
+!MESSAGE Validated 1. Took 24 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:53:31.606
+!MESSAGE Reconciled 2. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:53:32.088
+!MESSAGE begin problem for /User.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:53:32.088
+!MESSAGE 14 problems reported for /User.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:53:32.217
+!MESSAGE begin problem for /UserService.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:53:32.217
+!MESSAGE 11 problems reported for /UserService.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:53:32.220
+!MESSAGE Validated 2. Took 163 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:53:36.168
+!MESSAGE Reconciled 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:53:36.833
+!MESSAGE begin problem for /User.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:53:36.834
+!MESSAGE 0 problems reported for /User.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:53:36.836
+!MESSAGE Validated 1. Took 81 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:53:37.971
+!MESSAGE Reconciled 2. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:53:38.484
+!MESSAGE begin problem for /User.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:53:38.484
+!MESSAGE 0 problems reported for /User.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:53:38.553
+!MESSAGE begin problem for /UserService.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:53:38.554
+!MESSAGE 0 problems reported for /UserService.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:53:38.555
+!MESSAGE Validated 2. Took 183 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:53:52.251
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:53:52.826
+!MESSAGE begin problem for /UserController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:53:52.827
+!MESSAGE 0 problems reported for /UserController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:53:52.829
+!MESSAGE Validated 1. Took 106 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:53:59.390
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:53:59.924
+!MESSAGE begin problem for /UserService.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:53:59.925
+!MESSAGE 0 problems reported for /UserService.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:53:59.927
+!MESSAGE Validated 1. Took 77 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:54:08.990
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:54:09.495
+!MESSAGE begin problem for /UserRepository.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:54:09.495
+!MESSAGE 0 problems reported for /UserRepository.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:54:09.498
+!MESSAGE Validated 1. Took 50 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:54:10.969
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:54:11.481
+!MESSAGE begin problem for /User.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:54:11.482
+!MESSAGE 0 problems reported for /User.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:54:11.485
+!MESSAGE Validated 1. Took 54 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:54:16.552
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:54:17.105
+!MESSAGE begin problem for /UserController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:54:17.107
+!MESSAGE 0 problems reported for /UserController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:54:17.109
+!MESSAGE Validated 1. Took 95 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:54:38.170
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:54:38.703
+!MESSAGE begin problem for /User.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:54:38.715
+!MESSAGE 0 problems reported for /User.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:54:38.717
+!MESSAGE Validated 1. Took 90 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:54:40.146
+!MESSAGE Reconciled 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:54:40.292
+!MESSAGE Reconciled 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:54:40.810
+!MESSAGE begin problem for /User.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:54:40.811
+!MESSAGE 0 problems reported for /User.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:54:40.813
+!MESSAGE Validated 1. Took 70 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:57:56.288
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:57:56.806
+!MESSAGE begin problem for /UserController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:57:56.807
+!MESSAGE 0 problems reported for /UserController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:57:56.809
+!MESSAGE Validated 1. Took 67 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:58:06.249
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:58:06.518
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:58:06.922
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:58:07.341
+!MESSAGE begin problem for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:58:07.342
+!MESSAGE 0 problems reported for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:58:07.343
+!MESSAGE Validated 1. Took 17 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:58:08.290
+!MESSAGE Reconciled 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:58:08.809
+!MESSAGE begin problem for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:58:08.810
+!MESSAGE 40 problems reported for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:58:08.812
+!MESSAGE Validated 1. Took 71 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:58:10.101
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:58:10.617
+!MESSAGE begin problem for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:58:10.622
+!MESSAGE 40 problems reported for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:58:10.627
+!MESSAGE Validated 1. Took 76 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:58:58.300
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:58:58.896
+!MESSAGE begin problem for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:58:58.898
+!MESSAGE 40 problems reported for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:58:58.919
+!MESSAGE Validated 1. Took 153 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:59:31.241
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:59:31.822
+!MESSAGE begin problem for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:59:31.836
+!MESSAGE 40 problems reported for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:59:31.846
+!MESSAGE Validated 1. Took 194 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:59:39.224
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:59:39.403
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:59:39.815
+!MESSAGE begin problem for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:59:39.816
+!MESSAGE 0 problems reported for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:59:39.817
+!MESSAGE Validated 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:59:41.459
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:59:41.922
+!MESSAGE begin problem for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:59:41.922
+!MESSAGE 0 problems reported for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:59:41.923
+!MESSAGE Validated 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:59:54.432
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:59:54.896
+!MESSAGE begin problem for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:59:54.896
+!MESSAGE 0 problems reported for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:59:54.896
+!MESSAGE Validated 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:59:56.054
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:59:56.545
+!MESSAGE begin problem for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:59:56.546
+!MESSAGE 40 problems reported for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:59:56.547
+!MESSAGE Validated 1. Took 42 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:59:57.660
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:59:58.132
+!MESSAGE begin problem for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:59:58.133
+!MESSAGE 40 problems reported for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 16:59:58.137
+!MESSAGE Validated 1. Took 73 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:00:09.211
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:00:09.735
+!MESSAGE begin problem for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:00:09.735
+!MESSAGE 40 problems reported for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:00:09.741
+!MESSAGE Validated 1. Took 67 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:01:53.098
+!MESSAGE Projects updated in 1335 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:01:53.198
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:01:54.861
+!MESSAGE Reconciled 1. Took 77 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:01:55.156
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:01:55.158
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:01:55.730
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:02:04.885
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:02:05.393
+!MESSAGE begin problem for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:02:05.394
+!MESSAGE 40 problems reported for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:02:05.398
+!MESSAGE Validated 1. Took 58 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:02:15.554
+!MESSAGE Maven Central search cancelled
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:03:20.626
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:03:24.306
+!MESSAGE begin problem for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:03:24.307
+!MESSAGE 40 problems reported for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:03:24.316
+!MESSAGE Validated 1. Took 1962 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:03:26.576
+!MESSAGE Projects updated in 5747 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:03:26.684
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:03:28.827
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:03:29.393
+!MESSAGE Reconciled 1. Took 1178 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:03:29.989
+!MESSAGE begin problem for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:03:29.995
+!MESSAGE 40 problems reported for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:03:30.000
+!MESSAGE Validated 1. Took 206 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:03:34.240
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:03:34.823
+!MESSAGE begin problem for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:03:34.834
+!MESSAGE 40 problems reported for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:03:34.841
+!MESSAGE Validated 1. Took 145 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:04:46.991
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:04:47.449
+!MESSAGE begin problem for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:04:47.450
+!MESSAGE 0 problems reported for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:04:47.450
+!MESSAGE Validated 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:04:48.535
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:04:48.994
+!MESSAGE begin problem for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:04:48.996
+!MESSAGE 0 problems reported for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:04:49.004
+!MESSAGE Validated 1. Took 36 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:05:37.034
+!MESSAGE Reconciled 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:05:37.457
+!MESSAGE begin problem for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:05:37.457
+!MESSAGE 5 problems reported for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:05:37.459
+!MESSAGE Validated 1. Took 23 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:05:38.096
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:05:38.790
+!MESSAGE begin problem for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:05:38.790
+!MESSAGE 5 problems reported for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:05:38.791
+!MESSAGE Validated 1. Took 59 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:05:38.949
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:05:39.350
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:05:39.759
+!MESSAGE begin problem for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:05:39.759
+!MESSAGE 0 problems reported for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:05:39.759
+!MESSAGE Validated 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:05:39.901
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:05:40.413
+!MESSAGE begin problem for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:05:40.414
+!MESSAGE 40 problems reported for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:05:40.416
+!MESSAGE Validated 1. Took 64 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:05:41.562
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:05:42.051
+!MESSAGE begin problem for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:05:42.052
+!MESSAGE 40 problems reported for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:05:42.053
+!MESSAGE Validated 1. Took 41 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:06:05.660
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:06:06.161
+!MESSAGE begin problem for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:06:06.162
+!MESSAGE 40 problems reported for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:06:06.168
+!MESSAGE Validated 1. Took 54 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:06:13.042
+!MESSAGE Maven Central search cancelled
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:08:09.990
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:08:11.610
+!MESSAGE begin problem for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:08:11.615
+!MESSAGE 40 problems reported for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:08:11.634
+!MESSAGE Validated 1. Took 1234 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:08:12.715
+!MESSAGE Reconciled 1. Took 46 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:08:13.381
+!MESSAGE begin problem for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:08:13.381
+!MESSAGE 40 problems reported for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:08:13.388
+!MESSAGE Validated 1. Took 267 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:08:16.671
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:08:18.637
+!MESSAGE begin problem for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:08:18.638
+!MESSAGE 40 problems reported for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:08:18.646
+!MESSAGE Validated 1. Took 1087 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:08:25.973
+!MESSAGE Projects updated in 4435 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:08:26.094
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:08:26.782
+!MESSAGE begin problem for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:08:26.782
+!MESSAGE 40 problems reported for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:08:26.799
+!MESSAGE Validated 1. Took 289 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:08:26.977
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:08:26.978
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:08:27.017
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:08:27.534
+!MESSAGE begin problem for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:08:27.536
+!MESSAGE 40 problems reported for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:08:27.543
+!MESSAGE Validated 1. Took 124 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:10:33.394
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:10:33.933
+!MESSAGE begin problem for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:10:33.942
+!MESSAGE 40 problems reported for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:10:33.956
+!MESSAGE Validated 1. Took 155 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:11:00.181
+!MESSAGE Projects updated in 1942 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:11:00.274
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:11:00.856
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:11:00.951
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:11:01.447
+!MESSAGE begin problem for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:11:01.448
+!MESSAGE 40 problems reported for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:11:01.452
+!MESSAGE Validated 1. Took 49 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:11:43.657
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:11:44.147
+!MESSAGE begin problem for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:11:44.148
+!MESSAGE 40 problems reported for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:11:44.152
+!MESSAGE Validated 1. Took 42 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:11:45.846
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:11:46.310
+!MESSAGE begin problem for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:11:46.310
+!MESSAGE 0 problems reported for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:11:46.311
+!MESSAGE Validated 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:11:47.421
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:11:47.881
+!MESSAGE begin problem for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:11:47.882
+!MESSAGE 0 problems reported for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:11:47.883
+!MESSAGE Validated 1. Took 17 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:13:05.955
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:13:06.480
+!MESSAGE begin problem for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:13:06.481
+!MESSAGE 40 problems reported for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:13:06.485
+!MESSAGE Validated 1. Took 80 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:13:08.010
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.core 4 4 2024-10-11 17:13:08.127
+!MESSAGE JavaBuilder handling ImageBuilderInternalException while building: jdt.ls-java-project
+!STACK 1
+Java Model Exception: Error in Java Model (code -1): '4xf3' is not a valid Java identifier
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:574)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:233)
+	at org.eclipse.jdt.internal.core.SourceRefElement.generateInfos(SourceRefElement.java:128)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:585)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:308)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:294)
+	at org.eclipse.jdt.internal.core.Member.getNameRange(Member.java:399)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.createProblemFor(AbstractImageBuilder.java:443)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.acceptResult(AbstractImageBuilder.java:194)
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:614)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:474)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:425)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:410)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.compile(IncrementalImageBuilder.java:370)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:341)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.incrementalBuildLoop(IncrementalImageBuilder.java:190)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.build(IncrementalImageBuilder.java:147)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:304)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:221)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 -1 2024-10-11 17:13:08.132
+!MESSAGE '4xf3' is not a valid Java identifier
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:13:08.533
+!MESSAGE begin problem for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:13:08.534
+!MESSAGE 40 problems reported for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:13:08.538
+!MESSAGE Validated 1. Took 78 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:13:28.240
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:13:28.736
+!MESSAGE begin problem for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:13:28.737
+!MESSAGE 43 problems reported for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:13:28.740
+!MESSAGE Validated 1. Took 49 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:13:29.927
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:13:31.089
+!MESSAGE ClassFile contents request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:13:31.495
+!MESSAGE begin problem for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:13:31.502
+!MESSAGE 43 problems reported for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:13:31.524
+!MESSAGE Validated 1. Took 1188 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:13:48.885
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:13:49.388
+!MESSAGE begin problem for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:13:49.389
+!MESSAGE 44 problems reported for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:13:49.390
+!MESSAGE Validated 1. Took 54 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:13:50.943
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:13:51.386
+!MESSAGE begin problem for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:13:51.387
+!MESSAGE 44 problems reported for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:13:51.392
+!MESSAGE Validated 1. Took 48 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:14:51.771
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:14:51.951
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:14:51.989
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:14:52.437
+!MESSAGE begin problem for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:14:52.438
+!MESSAGE 44 problems reported for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:14:52.445
+!MESSAGE Validated 1. Took 43 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:14:52.710
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:14:52.920
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:14:53.440
+!MESSAGE begin problem for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:14:53.447
+!MESSAGE 44 problems reported for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:14:53.449
+!MESSAGE Validated 1. Took 80 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:14:53.501
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:14:53.528
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:14:54.012
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:14:54.751
+!MESSAGE begin problem for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:14:54.752
+!MESSAGE 44 problems reported for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:14:54.756
+!MESSAGE Validated 1. Took 292 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:14:55.605
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.core 4 4 2024-10-11 17:14:55.722
+!MESSAGE JavaBuilder handling ImageBuilderInternalException while building: jdt.ls-java-project
+!STACK 1
+Java Model Exception: Error in Java Model (code -1): '4Uh9' is not a valid Java identifier
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:574)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:233)
+	at org.eclipse.jdt.internal.core.SourceRefElement.generateInfos(SourceRefElement.java:128)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:585)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:308)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:294)
+	at org.eclipse.jdt.internal.core.Member.getNameRange(Member.java:399)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.createProblemFor(AbstractImageBuilder.java:443)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.acceptResult(AbstractImageBuilder.java:194)
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:614)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:474)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:425)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:410)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.compile(IncrementalImageBuilder.java:370)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:341)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.incrementalBuildLoop(IncrementalImageBuilder.java:190)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.build(IncrementalImageBuilder.java:147)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:304)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:221)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 -1 2024-10-11 17:14:55.722
+!MESSAGE '4Uh9' is not a valid Java identifier
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:14:56.101
+!MESSAGE begin problem for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:14:56.101
+!MESSAGE 44 problems reported for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:14:56.111
+!MESSAGE Validated 1. Took 50 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:15:06.875
+!MESSAGE Reconciled 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:15:07.020
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:15:07.229
+!MESSAGE Reconciled 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:15:07.291
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:15:07.459
+!MESSAGE Reconciled 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:15:07.990
+!MESSAGE begin problem for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:15:07.998
+!MESSAGE 45 problems reported for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:15:08.000
+!MESSAGE Validated 1. Took 89 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:15:08.860
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:15:09.310
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:15:09.549
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:15:09.999
+!MESSAGE Reconciled 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:15:10.555
+!MESSAGE begin problem for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:15:10.555
+!MESSAGE 45 problems reported for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:15:10.559
+!MESSAGE Validated 1. Took 109 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:15:11.555
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:15:12.053
+!MESSAGE begin problem for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:15:12.053
+!MESSAGE 45 problems reported for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:15:12.055
+!MESSAGE Validated 1. Took 49 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:15:12.908
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:15:13.411
+!MESSAGE begin problem for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:15:13.412
+!MESSAGE 45 problems reported for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:15:13.413
+!MESSAGE Validated 1. Took 54 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:15:14.013
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:15:14.642
+!MESSAGE Reconciled 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:15:14.837
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:15:15.284
+!MESSAGE begin problem for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:15:15.284
+!MESSAGE 45 problems reported for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:15:15.285
+!MESSAGE Validated 1. Took 47 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:15:15.780
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:15:15.933
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:15:16.618
+!MESSAGE begin problem for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:15:16.619
+!MESSAGE 45 problems reported for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:15:16.625
+!MESSAGE Validated 1. Took 394 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:15:16.836
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:15:17.282
+!MESSAGE begin problem for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:15:17.282
+!MESSAGE 45 problems reported for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:15:17.286
+!MESSAGE Validated 1. Took 49 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:15:19.067
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:15:19.182
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:15:19.632
+!MESSAGE begin problem for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:15:19.632
+!MESSAGE 45 problems reported for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:15:19.633
+!MESSAGE Validated 1. Took 50 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:22:48.639
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:22:49.075
+!MESSAGE begin problem for /DemoApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:22:49.076
+!MESSAGE 0 problems reported for /DemoApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:22:49.078
+!MESSAGE Validated 1. Took 32 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:22:53.869
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:22:54.348
+!MESSAGE begin problem for /DemoApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:22:54.349
+!MESSAGE 1 problems reported for /DemoApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:22:54.352
+!MESSAGE Validated 1. Took 32 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:22:55.722
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:22:56.235
+!MESSAGE begin problem for /DemoApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:22:56.236
+!MESSAGE 1 problems reported for /DemoApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:22:56.237
+!MESSAGE Validated 1. Took 105 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:22:56.444
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:22:56.904
+!MESSAGE begin problem for /DemoApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:22:56.905
+!MESSAGE 1 problems reported for /DemoApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:22:56.907
+!MESSAGE Validated 1. Took 60 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:23:47.639
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:23:48.080
+!MESSAGE begin problem for /DemoApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:23:48.081
+!MESSAGE 0 problems reported for /DemoApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:23:48.084
+!MESSAGE Validated 1. Took 43 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:23:49.428
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:23:49.907
+!MESSAGE begin problem for /DemoApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:23:49.908
+!MESSAGE 0 problems reported for /DemoApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:23:49.908
+!MESSAGE Validated 1. Took 26 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:25:57.497
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:25:57.564
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:25:58.095
+!MESSAGE begin problem for /DemoApplicationTests.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:25:58.097
+!MESSAGE 0 problems reported for /DemoApplicationTests.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:25:58.107
+!MESSAGE Validated 1. Took 105 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:26:26.322
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:26:26.824
+!MESSAGE begin problem for /DemoApplicationTests.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:26:26.825
+!MESSAGE 2 problems reported for /DemoApplicationTests.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:26:26.826
+!MESSAGE Validated 1. Took 52 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:26:28.234
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:26:28.997
+!MESSAGE begin problem for /DemoApplicationTests.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:26:28.998
+!MESSAGE 2 problems reported for /DemoApplicationTests.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:26:29.000
+!MESSAGE Validated 1. Took 315 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:26:43.262
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:26:43.340
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:26:43.893
+!MESSAGE begin problem for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:26:43.895
+!MESSAGE 2 problems reported for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:26:43.897
+!MESSAGE Validated 1. Took 144 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:26:44.224
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:26:44.722
+!MESSAGE begin problem for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:26:44.722
+!MESSAGE 2 problems reported for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:26:44.722
+!MESSAGE Validated 1. Took 46 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:26:51.136
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:26:51.607
+!MESSAGE begin problem for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:26:51.608
+!MESSAGE 1 problems reported for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:26:51.610
+!MESSAGE Validated 1. Took 73 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:26:52.815
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:26:53.307
+!MESSAGE begin problem for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:26:53.307
+!MESSAGE 1 problems reported for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:26:53.309
+!MESSAGE Validated 1. Took 93 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:27:06.156
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:27:06.228
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:27:06.397
+!MESSAGE Clearing problems for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:27:06.744
+!MESSAGE begin problem for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:27:06.744
+!MESSAGE 1 problems reported for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:27:06.746
+!MESSAGE Validated 1. Took 68 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:27:07.324
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:27:07.797
+!MESSAGE begin problem for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:27:07.798
+!MESSAGE 1 problems reported for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:27:07.800
+!MESSAGE Validated 1. Took 75 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:27:17.849
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:27:18.300
+!MESSAGE begin problem for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:27:18.301
+!MESSAGE 0 problems reported for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:27:18.301
+!MESSAGE Validated 1. Took 51 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:27:19.445
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:27:19.913
+!MESSAGE begin problem for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:27:19.920
+!MESSAGE 0 problems reported for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:27:19.921
+!MESSAGE Validated 1. Took 74 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:31:00.075
+!MESSAGE ClassFile contents request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:31:02.229
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:31:02.378
+!MESSAGE ClassFile contents request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:31:02.812
+!MESSAGE begin problem for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:31:02.812
+!MESSAGE 0 problems reported for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:31:02.816
+!MESSAGE Validated 1. Took 110 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:31:43.384
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:31:43.882
+!MESSAGE begin problem for /UserController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:31:43.883
+!MESSAGE 0 problems reported for /UserController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:31:43.883
+!MESSAGE Validated 1. Took 46 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:31:51.225
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:31:51.715
+!MESSAGE begin problem for /UserRepository.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:31:51.716
+!MESSAGE 0 problems reported for /UserRepository.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:31:51.717
+!MESSAGE Validated 1. Took 38 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:32:28.268
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:32:28.764
+!MESSAGE begin problem for /UserService.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:32:28.765
+!MESSAGE 0 problems reported for /UserService.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:32:28.767
+!MESSAGE Validated 1. Took 46 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:32:31.200
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:32:31.982
+!MESSAGE begin problem for /UserRepository.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:32:31.983
+!MESSAGE 0 problems reported for /UserRepository.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:32:31.985
+!MESSAGE Validated 1. Took 332 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:32:35.484
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:32:35.991
+!MESSAGE begin problem for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:32:35.992
+!MESSAGE 0 problems reported for /UserControllerTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:32:35.993
+!MESSAGE Validated 1. Took 58 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:32:42.722
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:32:43.207
+!MESSAGE begin problem for /DemoApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:32:43.207
+!MESSAGE 0 problems reported for /DemoApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:32:43.207
+!MESSAGE Validated 1. Took 32 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:32:45.212
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:32:45.699
+!MESSAGE begin problem for /UserService.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:32:45.699
+!MESSAGE 0 problems reported for /UserService.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:32:45.700
+!MESSAGE Validated 1. Took 31 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:32:48.317
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:32:48.755
+!MESSAGE begin problem for /UserRepository.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:32:48.756
+!MESSAGE 0 problems reported for /UserRepository.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:32:48.756
+!MESSAGE Validated 1. Took 35 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:32:53.742
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:32:54.233
+!MESSAGE begin problem for /User.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:32:54.234
+!MESSAGE 0 problems reported for /User.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:32:54.236
+!MESSAGE Validated 1. Took 40 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:32:57.123
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:32:57.623
+!MESSAGE begin problem for /UserController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:32:57.623
+!MESSAGE 0 problems reported for /UserController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:32:57.625
+!MESSAGE Validated 1. Took 50 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:33:06.696
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:33:07.316
+!MESSAGE begin problem for /User.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:33:07.316
+!MESSAGE 0 problems reported for /User.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:33:07.318
+!MESSAGE Validated 1. Took 73 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:33:11.235
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:33:11.731
+!MESSAGE begin problem for /UserRepository.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:33:11.731
+!MESSAGE 0 problems reported for /UserRepository.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:33:11.733
+!MESSAGE Validated 1. Took 43 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:33:12.311
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:33:12.793
+!MESSAGE begin problem for /User.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:33:12.793
+!MESSAGE 0 problems reported for /User.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:33:12.794
+!MESSAGE Validated 1. Took 31 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:33:13.950
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:33:14.444
+!MESSAGE begin problem for /UserController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:33:14.444
+!MESSAGE 0 problems reported for /UserController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 17:33:14.444
+!MESSAGE Validated 1. Took 42 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 18:00:57.661
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 18:00:57.670
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 18:00:57.801
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 18:00:57.820
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2024-10-11 18:02:27.565 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.12
+java.vendor=Ubuntu
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  --pipe=/tmp/lsp-07b9a083527b19ec0bc9961b8fdc72bc.sock
+Command-line arguments:  -data /home/daposorunke/.codeoss/data/User/workspaceStorage/-6f2281fa/redhat.java/jdt_ws --pipe=/tmp/lsp-07b9a083527b19ec0bc9961b8fdc72bc.sock
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 18:02:43.304
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 18:02:44.722
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 18:02:44.759
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 18:02:44.782
+!MESSAGE Initializing Java Language Server 1.37.0.202406190804
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 18:02:44.790
+!MESSAGE Started org.eclipse.m2e.core 7ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 18:02:44.806
+!MESSAGE ProjectRegistryRefreshJob finished 14ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 18:02:44.977
+!MESSAGE Started org.eclipse.buildship.core 169ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 18:02:46.040
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 18:02:46.048
+!MESSAGE Non-Static Commands: [java.project.import, java.project.changeImportedProjects, java.navigate.openTypeHierarchy, java.project.resolveStackTraceLocation, java.edit.handlePasteEvent, java.edit.stringFormatting, java.project.getSettings, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.project.createModuleInfo, java.vm.getAllInstalls, java.edit.organizeImports, java.project.refreshDiagnostics, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.updateSettings, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.project.resolveText, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.smartSemicolonDetection, java.project.updateSourceAttachment, java.project.updateClassPaths, java.decompile, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.updateJdk, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 18:02:46.049
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 18:02:46.055
+!MESSAGE Non-Static Commands: [java.project.refreshLib, java.project.checkImportStatus, java.project.list, java.project.generateJar, java.project.getMainClasses, java.getPackageData, java.resolvePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 18:02:46.055
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 18:02:46.056
+!MESSAGE Non-Static Commands: [vscode.java.test.jacoco.getCoverageDetail, vscode.java.test.findJavaProjects, vscode.java.test.findTestPackagesAndTypes, vscode.java.test.findTestTypesAndMethods, vscode.java.test.resolvePath, vscode.java.test.findTestLocation, vscode.java.test.get.testpath, vscode.java.test.findDirectTestChildrenForClass, vscode.java.test.navigateToTestOrTarget, vscode.java.test.junit.argument, vscode.java.test.generateTests]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 18:02:46.061
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 18:02:46.062
+!MESSAGE Non-Static Commands: [vscode.java.checkProjectSettings, vscode.java.isOnClasspath, vscode.java.fetchUsageData, vscode.java.validateLaunchConfig, vscode.java.resolveInlineVariables, vscode.java.resolveClassFilters, vscode.java.resolveMainMethod, vscode.java.resolveClasspath, vscode.java.resolveBuildFiles, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.resolveSourceUri, vscode.java.fetchPlatformSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection, vscode.java.resolveJavaExecutable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 18:02:46.066
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 18:02:46.075
+!MESSAGE Non-Static Commands: [java.maven.initializeSearcher, java.maven.searchArtifact, java.maven.addDependency, java.maven.controlContext]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 18:02:46.836
+!MESSAGE RepositoryRegistryUpdateJob finished 606ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 18:02:47.223
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 18:02:47.757
+!MESSAGE Workspace initialized in 1528ms
+!SESSION 2024-10-11 18:02:58.407 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.12
+java.vendor=Ubuntu
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  --pipe=/tmp/lsp-f8d799c8b87942c07c31d82bb1a6a10e.sock
+Command-line arguments:  -data /home/daposorunke/.codeoss/data/User/workspaceStorage/-6f2281fa/redhat.java/jdt_ws --pipe=/tmp/lsp-f8d799c8b87942c07c31d82bb1a6a10e.sock
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 18:03:13.833
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 18:03:15.433
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 18:03:15.536
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 18:03:15.551
+!MESSAGE Initializing Java Language Server 1.37.0.202406190804
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 18:03:15.553
+!MESSAGE Started org.eclipse.m2e.core 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 18:03:15.567
+!MESSAGE ProjectRegistryRefreshJob finished 4ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 18:03:15.749
+!MESSAGE Started org.eclipse.buildship.core 180ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 18:03:17.030
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 18:03:17.031
+!MESSAGE Non-Static Commands: [java.project.import, java.project.changeImportedProjects, java.navigate.openTypeHierarchy, java.project.resolveStackTraceLocation, java.edit.handlePasteEvent, java.edit.stringFormatting, java.project.getSettings, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.project.createModuleInfo, java.vm.getAllInstalls, java.edit.organizeImports, java.project.refreshDiagnostics, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.updateSettings, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.project.resolveText, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.smartSemicolonDetection, java.project.updateSourceAttachment, java.project.updateClassPaths, java.decompile, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.updateJdk, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 18:03:17.043
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 18:03:17.046
+!MESSAGE Non-Static Commands: [java.project.refreshLib, java.project.checkImportStatus, java.project.list, java.project.generateJar, java.project.getMainClasses, java.getPackageData, java.resolvePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 18:03:17.047
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 18:03:17.047
+!MESSAGE Non-Static Commands: [vscode.java.test.jacoco.getCoverageDetail, vscode.java.test.findJavaProjects, vscode.java.test.findTestPackagesAndTypes, vscode.java.test.findTestTypesAndMethods, vscode.java.test.resolvePath, vscode.java.test.findTestLocation, vscode.java.test.get.testpath, vscode.java.test.findDirectTestChildrenForClass, vscode.java.test.navigateToTestOrTarget, vscode.java.test.junit.argument, vscode.java.test.generateTests]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 18:03:17.048
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 18:03:17.048
+!MESSAGE Non-Static Commands: [vscode.java.checkProjectSettings, vscode.java.isOnClasspath, vscode.java.fetchUsageData, vscode.java.validateLaunchConfig, vscode.java.resolveInlineVariables, vscode.java.resolveClassFilters, vscode.java.resolveMainMethod, vscode.java.resolveClasspath, vscode.java.resolveBuildFiles, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.resolveSourceUri, vscode.java.fetchPlatformSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection, vscode.java.resolveJavaExecutable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 18:03:17.056
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 18:03:17.059
+!MESSAGE Non-Static Commands: [java.maven.initializeSearcher, java.maven.searchArtifact, java.maven.addDependency, java.maven.controlContext]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 18:03:17.182
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 18:03:17.515
+!MESSAGE RepositoryRegistryUpdateJob finished 335ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 18:03:17.791
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 18:03:18.577
+!MESSAGE Workspace initialized in 1400ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 18:03:18.599
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 18:03:23.720
+!MESSAGE Parent process stopped running, forcing server exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 18:03:23.720
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 18:03:24.228
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 18:03:24.272
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 18:03:27.827
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 18:03:27.828
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-11 18:03:27.840
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'

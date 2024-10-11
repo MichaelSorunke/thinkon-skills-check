@@ -1,0 +1,57 @@
+2024-10-11 18:02:53.202 [info] Log level: Info
+2024-10-11 18:02:53.202 [info] Validating found git in: "git"
+2024-10-11 18:02:53.202 [info] Using git "2.43.0" from "git"
+2024-10-11 18:02:53.202 [info] > git rev-parse --show-toplevel [6ms]
+2024-10-11 18:02:53.202 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-10-11 18:02:53.202 [info] > git rev-parse --show-toplevel [11ms]
+2024-10-11 18:02:53.202 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-10-11 18:02:53.206 [info] > git rev-parse --show-toplevel [5ms]
+2024-10-11 18:02:53.206 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-10-11 18:02:53.222 [info] > git rev-parse --show-toplevel [3ms]
+2024-10-11 18:02:53.222 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-10-11 18:02:53.236 [info] > git rev-parse --show-toplevel [4ms]
+2024-10-11 18:02:53.236 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-10-11 18:02:53.264 [info] > git rev-parse --show-toplevel [16ms]
+2024-10-11 18:02:53.264 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-10-11 18:02:53.278 [info] > git rev-parse --show-toplevel [4ms]
+2024-10-11 18:02:53.278 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-10-11 18:02:53.441 [info] > git rev-parse --show-toplevel [152ms]
+2024-10-11 18:02:53.441 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-10-11 18:02:53.457 [info] > git rev-parse --show-toplevel [5ms]
+2024-10-11 18:02:53.457 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-10-11 18:02:53.471 [info] > git rev-parse --show-toplevel [3ms]
+2024-10-11 18:02:53.471 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-10-11 18:02:54.821 [info] > git rev-parse --show-toplevel [1336ms]
+2024-10-11 18:02:54.822 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-10-11 18:02:55.016 [info] > git rev-parse --show-toplevel [79ms]
+2024-10-11 18:02:55.016 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-10-11 18:04:52.589 [info] > git init -b master [30ms]
+2024-10-11 18:04:52.615 [info] > git rev-parse --show-toplevel [2ms]
+2024-10-11 18:04:52.641 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2024-10-11 18:04:52.662 [info] Open repository: /home/daposorunke
+2024-10-11 18:04:52.765 [info] No remotes found in the git config file.
+2024-10-11 18:04:52.769 [info] > git config --get commit.template [43ms]
+2024-10-11 18:04:52.773 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [10ms]
+2024-10-11 18:04:52.774 [warning] No such branch: master.
+2024-10-11 18:04:52.959 [info] > git status -z -uall [148ms]
+2024-10-11 18:04:54.364 [info] > git config --get commit.template [228ms]
+2024-10-11 18:04:54.370 [info] > git check-ignore -v -z --stdin [7ms]
+2024-10-11 18:04:54.436 [info] No remotes found in the git config file.
+2024-10-11 18:04:54.459 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [22ms]
+2024-10-11 18:04:54.465 [warning] No such branch: master.
+2024-10-11 18:04:54.684 [info] > git status -z -uall [153ms]
+2024-10-11 18:04:56.072 [info] > git show --textconv :helloworld/pom.xml [53ms]
+2024-10-11 18:04:56.076 [info] > git ls-files --stage -- /home/daposorunke/helloworld/pom.xml [16ms]
+2024-10-11 18:04:56.604 [info] > git check-ignore -v -z --stdin [5ms]
