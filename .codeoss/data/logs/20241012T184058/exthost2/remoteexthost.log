@@ -87,3 +87,27 @@
     at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101403
     at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101423)
     at processImmediate (node:internal/timers:476:21)
+2024-10-12 19:17:02.863 [error] Error: ENOENT: no such file or directory, lstat '/home/daposorunke/helloworld/src/main/java/com/example/demo/model/User.java.git'
+2024-10-12 19:17:02.867 [error] Error: ENOENT: no such file or directory, lstat '/home/daposorunke/helloworld/app.yaml.git'
+2024-10-12 19:17:02.867 [error] Error: ENOENT: no such file or directory, lstat '/home/daposorunke/helloworld/pom.xml.git'
+2024-10-12 19:17:14.030 [error] Error: ENOENT: no such file or directory, lstat '/home/daposorunke/helloworld/src/main/java/com/example/demo/model/User.java.git'
+2024-10-12 19:17:14.030 [error] Error: ENOENT: no such file or directory, lstat '/home/daposorunke/helloworld/app.yaml.git'
+2024-10-12 19:17:14.030 [error] Error: ENOENT: no such file or directory, lstat '/home/daposorunke/helloworld/pom.xml.git'
+2024-10-12 19:17:16.443 [error] Error: ENOENT: no such file or directory, lstat '/home/daposorunke/helloworld/src/main/java/com/example/demo/model/User.java.git'
+2024-10-12 19:17:16.445 [error] Error: ENOENT: no such file or directory, lstat '/home/daposorunke/helloworld/app.yaml.git'
+2024-10-12 19:17:16.446 [error] Error: ENOENT: no such file or directory, lstat '/home/daposorunke/helloworld/pom.xml.git'
+2024-10-12 19:17:37.604 [error] Error: ENOENT: no such file or directory, lstat '/home/daposorunke/helloworld/src/main/java/com/example/demo/model/User.java.git'
+2024-10-12 19:17:37.607 [error] Error: ENOENT: no such file or directory, lstat '/home/daposorunke/helloworld/app.yaml.git'
+2024-10-12 19:17:37.609 [error] Error: ENOENT: no such file or directory, lstat '/home/daposorunke/helloworld/pom.xml.git'
+2024-10-12 19:18:23.706 [error] Error: ENOENT: no such file or directory, lstat '/home/daposorunke/helloworld/src/main/java/com/example/demo/model/User.java.git'
+2024-10-12 19:18:23.707 [error] Error: ENOENT: no such file or directory, lstat '/home/daposorunke/helloworld/app.yaml.git'
+2024-10-12 19:18:23.708 [error] Error: ENOENT: no such file or directory, lstat '/home/daposorunke/helloworld/pom.xml.git'
+2024-10-12 19:18:30.793 [error] Error: ENOENT: no such file or directory, lstat '/home/daposorunke/helloworld/src/main/java/com/example/demo/model/User.java.git'
+2024-10-12 19:18:30.795 [error] Error: ENOENT: no such file or directory, lstat '/home/daposorunke/helloworld/app.yaml.git'
+2024-10-12 19:18:30.795 [error] Error: ENOENT: no such file or directory, lstat '/home/daposorunke/helloworld/pom.xml.git'
+2024-10-12 19:18:41.952 [error] Error: ENOENT: no such file or directory, lstat '/home/daposorunke/helloworld/src/main/java/com/example/demo/model/User.java.git'
+2024-10-12 19:18:41.953 [error] Error: ENOENT: no such file or directory, lstat '/home/daposorunke/helloworld/app.yaml.git'
+2024-10-12 19:18:41.954 [error] Error: ENOENT: no such file or directory, lstat '/home/daposorunke/helloworld/pom.xml.git'
+2024-10-12 19:19:26.461 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2024-10-12 19:19:26.462 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2024-10-12 19:19:27.799 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features

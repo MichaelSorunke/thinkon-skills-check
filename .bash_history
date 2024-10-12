@@ -35,3 +35,4 @@ ngrok http 8080
 gcloud app deploy
 cd helloworld/
 gcloud app deploy
+git config pull.rebase false
