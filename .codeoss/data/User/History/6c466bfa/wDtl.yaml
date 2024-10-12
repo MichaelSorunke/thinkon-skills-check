@@ -1,0 +1,19 @@
+runtime: java17 
+instance_class: F2  
+
+handlers:
+  - url: /.*
+    script: auto  
+
+env_variables:
+  SPRING_PROFILES_ACTIVE: "prod"
+
+automatic_scaling:
+  target_cpu_utilization: 0.65
+  min_instances: 1
+  max_instances: 5
+
+network:
+  session_affinity: true
+
+service: default 

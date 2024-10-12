@@ -27,3 +27,11 @@ git config --global user.name "MichaelSorunke"
 git remote add origin https://github.com/MichaelSorunke/thinkon-skills-check.git
 git branch -M master
 git push -u origin master
+./mvnw -DskipTests spring-boot:run
+cd helloworld/
+./mvnw -DskipTests spring-boot:run
+curl -s https://ngrok-agent.s3.amazonaws.com/ngrok.asc | sudo tee /etc/apt/trusted.gpg.d/ngrok.asc >/dev/null && echo "deb https://ngrok-agent.s3.amazonaws.com buster main" | sudo tee /etc/apt/sources.list.d/ngrok.list && sudo apt update && sudo apt install ngrok
+ngrok http 8080
+gcloud app deploy
+cd helloworld/
+gcloud app deploy

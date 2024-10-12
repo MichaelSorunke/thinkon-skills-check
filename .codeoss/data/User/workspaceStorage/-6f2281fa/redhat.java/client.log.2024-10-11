@@ -509,3 +509,41 @@
   level: 'info',
   timestamp: '2024-10-11 18:15:06.263'
 }
+{
+  message: '[Error - 6:19:43 PM] Oct 11, 2024, 6:19:43 PM Error occurred while reading master table file\n' +
+    'Input length = 1\n' +
+    'java.nio.charset.MalformedInputException: Input length = 1\n' +
+    '\tat java.base/java.nio.charset.CoderResult.throwException(CoderResult.java:274)\n' +
+    '\tat java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:337)\n' +
+    '\tat java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:189)\n' +
+    '\tat java.base/java.io.InputStreamReader.read(InputStreamReader.java:177)\n' +
+    '\tat java.base/java.io.BufferedReader.fill(BufferedReader.java:162)\n' +
+    '\tat java.base/java.io.BufferedReader.readLine(BufferedReader.java:329)\n' +
+    '\tat java.base/java.io.BufferedReader.readLine(BufferedReader.java:396)\n' +
+    '\tat java.base/java.nio.file.Files.readAllLines(Files.java:3415)\n' +
+    '\tat org.eclipse.core.internal.resources.SaveManager.getBadSequenceNumberErrorMessage(SaveManager.java:1670)\n' +
+    '\tat org.eclipse.core.internal.resources.SaveManager.validateMasterTableBeforeSave(SaveManager.java:1651)\n' +
+    '\tat org.eclipse.core.internal.resources.SaveManager.saveMasterTable(SaveManager.java:1330)\n' +
+    '\tat org.eclipse.core.internal.resources.SaveManager.saveMasterTable(SaveManager.java:1321)\n' +
+    '\tat org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1294)\n' +
+    '\tat org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1205)\n' +
+    '\tat org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2024-10-11 18:19:43.561'
+}
+{
+  message: '[Error - 6:19:43 PM] Oct 11, 2024, 6:19:43 PM An internal error occurred during: "Periodic workspace save.".\n' +
+    'Cannot set lower sequence number for root (previous: 2, new: 1). Location: /home/daposorunke/.codeoss/data/User/workspaceStorage/-6f2281fa/redhat.java/jdt_ws/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resourcesTimestamps and tree sequence numbers from file:\n' +
+    'java.lang.IllegalArgumentException: Cannot set lower sequence number for root (previous: 2, new: 1). Location: /home/daposorunke/.codeoss/data/User/workspaceStorage/-6f2281fa/redhat.java/jdt_ws/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resourcesTimestamps and tree sequence numbers from file:\n' +
+    '\tat org.eclipse.core.runtime.Assert.isLegal(Assert.java:68)\n' +
+    '\tat org.eclipse.core.internal.resources.SaveManager.validateMasterTableBeforeSave(SaveManager.java:1652)\n' +
+    '\tat org.eclipse.core.internal.resources.SaveManager.saveMasterTable(SaveManager.java:1330)\n' +
+    '\tat org.eclipse.core.internal.resources.SaveManager.saveMasterTable(SaveManager.java:1321)\n' +
+    '\tat org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1294)\n' +
+    '\tat org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1205)\n' +
+    '\tat org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2024-10-11 18:19:43.570'
+}

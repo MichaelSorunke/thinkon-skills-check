@@ -19,3 +19,16 @@
 2024-10-11 18:02:50.394 [info] [127.0.0.1][11e14c23][ManagementConnection] New connection established.
 2024-10-11 18:02:50.445 [info] [127.0.0.1][929412ba][ExtensionHostConnection] New connection established.
 2024-10-11 18:02:50.465 [info] [127.0.0.1][929412ba][ExtensionHostConnection] <11168> Launched Extension Host Process.
+2024-10-11 18:22:09.121 [info] [127.0.0.1][11e14c23][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-10-11 18:22:09.396 [info] [127.0.0.1][929412ba][ExtensionHostConnection] <11168> Extension Host Process exited with code: 0, signal: null.
+2024-10-11 18:22:12.624 [info] [127.0.0.1][123e1d22][ManagementConnection] New connection established.
+2024-10-11 18:22:12.626 [info] [127.0.0.1][83e00aa1][ExtensionHostConnection] New connection established.
+2024-10-11 18:22:12.634 [info] [127.0.0.1][83e00aa1][ExtensionHostConnection] <14062> Launched Extension Host Process.
+2024-10-11 18:22:13.168 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/server/node/server.main.js:187:6057)
+    at process.emit (node:events:517:28)
+2024-10-11 18:22:13.172 [info] [127.0.0.1][123e1d22][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-10-11 18:22:13.748 [info] [127.0.0.1][123e1d22][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2024-10-11 18:22:13.749 [info] [127.0.0.1][fa4ea6d5][ExtensionHostConnection] New connection established.
+2024-10-11 18:22:13.757 [info] [127.0.0.1][fa4ea6d5][ExtensionHostConnection] <14080> Launched Extension Host Process.
+2024-10-11 18:27:13.911 [info] [127.0.0.1][123e1d22][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.

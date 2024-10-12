@@ -1,0 +1,20 @@
+runtime: java17  # Use the appropriate Java version
+instance_class: F2  # Optional: Define instance class (F2 is recommended for Java apps)
+
+handlers:
+  - url: /.*
+    script: auto  # Directs all traffic to the app
+
+env_variables:
+  SPRING_PROFILES_ACTIVE: "prod"  # Optional: Set active Spring profiles
+
+automatic_scaling:
+  target_cpu_utilization: 0.65
+  min_instances: 1
+  max_instances: 5
+
+# Optional: Increase request timeout (default is 60s)
+network:
+  session_affinity: true
+
+service: default  # Optional: Set the service name (use 'default' or your desired name

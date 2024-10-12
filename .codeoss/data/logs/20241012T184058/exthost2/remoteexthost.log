@@ -1,0 +1,89 @@
+2024-10-12 18:55:55.498 [info] Extension host with pid 2976 started
+2024-10-12 18:55:55.521 [info] Lock '/home/daposorunke/.codeoss/data/User/workspaceStorage/-6f2281fa/vscode.lock': Lock acquired.
+2024-10-12 18:55:55.592 [info] ExtensionService#_doActivateExtension redhat.java, startup: false, activationEvent: 'onLanguage:java'
+2024-10-12 18:55:55.594 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-debug, startup: false, activationEvent: 'onLanguage:java'
+2024-10-12 18:55:55.594 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-dependency, startup: false, activationEvent: 'onLanguage:java'
+2024-10-12 18:55:55.595 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-10-12 18:55:56.361 [warning] [redhat.java] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[java]', provide the URI of a resource or 'null' for any resource.
+2024-10-12 18:55:56.410 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-test, startup: false, activationEvent: 'onLanguage:java'
+2024-10-12 18:55:56.598 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-10-12 18:55:56.689 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-10-12 18:55:56.692 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-10-12 18:55:58.117 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-10-12 18:56:01.920 [error] TypeError: Cannot read properties of undefined (reading 'sendRequest')
+	at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:925276
+	at r.h (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:189465)
+	at r.g (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:188457)
+	at r.executeCommand (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:188364)
+	at Object.executeCommand (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:163:22673)
+	at /google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-debug/dist/extension.js:2:419432
+	at Generator.next (<anonymous>)
+	at /google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-debug/dist/extension.js:2:418425
+	at new Promise (<anonymous>)
+	at r (/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-debug/dist/extension.js:2:418170)
+	at s (/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-debug/dist/extension.js:2:419200)
+	at t.executeJavaLanguageServerCommand (/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-debug/dist/extension.js:2:420783)
+	at /google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-debug/dist/extension.js:2:460358
+	at Generator.next (<anonymous>)
+	at /google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-debug/dist/extension.js:2:459133
+	at new Promise (<anonymous>)
+	at r (/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-debug/dist/extension.js:2:458878)
+	at t.resolveMainMethod (/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-debug/dist/extension.js:2:460307)
+	at m.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-debug/dist/extension.js:2:439866)
+	at Generator.next (<anonymous>)
+	at /google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-debug/dist/extension.js:2:437978
+	at new Promise (<anonymous>)
+	at r (/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-debug/dist/extension.js:2:437723)
+	at m.provideCodeLenses (/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-debug/dist/extension.js:2:439792)
+	at c.provideCodeLenses (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:91668)
+	at /google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:121338
+	at Ae.s (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:120151)
+	at Ae.$provideCodeLenses (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:121327)
+	at c.S (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:150:5505)
+	at c.Q (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:150:5271)
+	at c.M (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:150:4323)
+	at c.L (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:150:3440)
+	at a.value (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:150:2227)
+	at o.y (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:660)
+	at o.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:877)
+	at u.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:107:14175)
+	at a.value (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:176:8023)
+	at o.y (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:660)
+	at o.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:877)
+	at u.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:107:14175)
+	at r.z (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:107:17240)
+	at a.value (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:107:15692)
+	at o.y (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:660)
+	at o.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:877)
+	at f.acceptChunk (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:107:11949)
+	at a.value (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:107:11236)
+	at o.y (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:660)
+	at o.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:877)
+	at i.z (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:173:19732)
+	at i.acceptFrame (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:173:19538)
+	at n (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:173:18037)
+	at /google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:173:15257
+	at Socket.S (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:173:13162)
+	at Socket.emit (node:events:517:28)
+	at addChunk (node:internal/streams/readable:335:12)
+	at readableAddChunk (node:internal/streams/readable:308:9)
+	at Readable.push (node:internal/streams/readable:245:10)
+	at TCP.onStreamRead (node:internal/stream_base_commons:190:23) java.execute.workspaceCommand {"value":"redhat.java","_lower":"redhat.java"}
+2024-10-12 18:56:02.906 [info] ExtensionService#_doActivateExtension redhat.fabric8-analytics, startup: true, activationEvent: 'workspaceContains:**/package.json,**/pom.xml,**/go.mod,**/requirements.txt'
+2024-10-12 18:56:02.907 [info] ExtensionService#_doActivateExtension vscjava.vscode-maven, startup: true, activationEvent: 'workspaceContains:**/pom.xml'
+2024-10-12 18:56:03.601 [warning] [redhat.java] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[java]', provide the URI of a resource or 'null' for any resource.
+2024-10-12 18:56:06.609 [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig, startup: false, activationEvent: 'onStartupFinished'
+2024-10-12 18:56:06.611 [info] ExtensionService#_doActivateExtension google.cloud-shell, startup: false, activationEvent: 'onStartupFinished'
+2024-10-12 18:56:06.612 [info] ExtensionService#_doActivateExtension googlecloudtools.cloudcode, startup: false, activationEvent: 'onStartupFinished'
+2024-10-12 18:56:06.614 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-10-12 18:56:06.614 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-10-12 18:56:17.729 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-10-12 18:56:17.729 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-10-12 18:56:27.595 [info] Eager extensions activated
+2024-10-12 18:58:03.218 [error] [redhat.java] provider FAILED
+2024-10-12 18:58:03.245 [error] Error: The request (id: 25, method: 'textDocument/documentSymbol') has been cancelled
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106325
+    at ie (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106619)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101403
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101423)
+    at processImmediate (node:internal/timers:476:21)

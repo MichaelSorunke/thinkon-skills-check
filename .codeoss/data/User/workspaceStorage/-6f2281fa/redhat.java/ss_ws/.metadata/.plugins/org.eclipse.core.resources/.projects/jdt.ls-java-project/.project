@@ -18,7 +18,12 @@
 		<link>
 			<name>src/com/example/demo/DemoApplication.java</name>
 			<type>1</type>
-			<location>//home/daposorunke/helloworld/src/main/java/com/example/demo/DemoApplication.java</location>
+			<location>/home/daposorunke/helloworld/src/main/java/com/example/demo/DemoApplication.java</location>
+		</link>
+		<link>
+			<name>src/com/example/demo/model/User.java</name>
+			<type>1</type>
+			<location>//home/daposorunke/helloworld/src/main/java/com/example/demo/model/User.java</location>
 		</link>
 	</linkedResources>
 </projectDescription>
